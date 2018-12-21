@@ -1,0 +1,1878 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02A36E681EDEE2FF1ABF82EE /* Pods_CPUPerformentChartExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C28D643CF993B74AFE3D68B /* Pods_CPUPerformentChartExampleTests.framework */; };
+		2B07FE1D21C892DB00D79829 /* CPManagedRAMUsageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE1C21C892DB00D79829 /* CPManagedRAMUsageItem.m */; };
+		2B07FE1E21C892DB00D79829 /* CPManagedRAMUsageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE1C21C892DB00D79829 /* CPManagedRAMUsageItem.m */; };
+		2B07FE1F21C892DB00D79829 /* CPManagedRAMUsageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE1C21C892DB00D79829 /* CPManagedRAMUsageItem.m */; };
+		2B07FE2221C8937000D79829 /* CPManagedBaseUsageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE2121C8937000D79829 /* CPManagedBaseUsageItem.m */; };
+		2B07FE2321C8937000D79829 /* CPManagedBaseUsageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE2121C8937000D79829 /* CPManagedBaseUsageItem.m */; };
+		2B07FE2421C8937000D79829 /* CPManagedBaseUsageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE2121C8937000D79829 /* CPManagedBaseUsageItem.m */; };
+		2B07FE2721C8945800D79829 /* CPBaseUsageCoreDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE2621C8945800D79829 /* CPBaseUsageCoreDataStore.m */; };
+		2B07FE2821C8945800D79829 /* CPBaseUsageCoreDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE2621C8945800D79829 /* CPBaseUsageCoreDataStore.m */; };
+		2B07FE2921C8945800D79829 /* CPBaseUsageCoreDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE2621C8945800D79829 /* CPBaseUsageCoreDataStore.m */; };
+		2B07FE2C21C8A22F00D79829 /* CPChartRAMUsageCoreDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE2B21C8A22F00D79829 /* CPChartRAMUsageCoreDataStore.m */; };
+		2B07FE2D21C8A23000D79829 /* CPChartRAMUsageCoreDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE2B21C8A22F00D79829 /* CPChartRAMUsageCoreDataStore.m */; };
+		2B07FE2E21C8A23000D79829 /* CPChartRAMUsageCoreDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE2B21C8A22F00D79829 /* CPChartRAMUsageCoreDataStore.m */; };
+		2B07FE3121C8A62E00D79829 /* RAMUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE3021C8A62E00D79829 /* RAMUsage.m */; };
+		2B07FE3221C8A62E00D79829 /* RAMUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE3021C8A62E00D79829 /* RAMUsage.m */; };
+		2B07FE3321C8A62E00D79829 /* RAMUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE3021C8A62E00D79829 /* RAMUsage.m */; };
+		2B07FE3521C8ABCE00D79829 /* CPChartRAMUsageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B07FE3421C8ABCE00D79829 /* CPChartRAMUsageViewController.storyboard */; };
+		2B07FE3621C8ABCE00D79829 /* CPChartRAMUsageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B07FE3421C8ABCE00D79829 /* CPChartRAMUsageViewController.storyboard */; };
+		2B07FE3721C8ABCE00D79829 /* CPChartRAMUsageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B07FE3421C8ABCE00D79829 /* CPChartRAMUsageViewController.storyboard */; };
+		2B07FE3A21C8D4EF00D79829 /* NetworkUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE3921C8D4EF00D79829 /* NetworkUsage.m */; };
+		2B07FE3B21C8D4EF00D79829 /* NetworkUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE3921C8D4EF00D79829 /* NetworkUsage.m */; };
+		2B07FE3C21C8D4EF00D79829 /* NetworkUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE3921C8D4EF00D79829 /* NetworkUsage.m */; };
+		2B07FE3F21C8DCD300D79829 /* GPUUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE3E21C8DCD300D79829 /* GPUUsage.m */; };
+		2B07FE4021C8DCD300D79829 /* GPUUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE3E21C8DCD300D79829 /* GPUUsage.m */; };
+		2B07FE4121C8DCD300D79829 /* GPUUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE3E21C8DCD300D79829 /* GPUUsage.m */; };
+		2B07FE4421C8E3BC00D79829 /* CPManagedNetworkUsageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE4321C8E3BC00D79829 /* CPManagedNetworkUsageItem.m */; };
+		2B07FE4521C8E3BC00D79829 /* CPManagedNetworkUsageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE4321C8E3BC00D79829 /* CPManagedNetworkUsageItem.m */; };
+		2B07FE4621C8E3BC00D79829 /* CPManagedNetworkUsageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE4321C8E3BC00D79829 /* CPManagedNetworkUsageItem.m */; };
+		2B07FE4921C8E53F00D79829 /* CPChartNetworkUsageCoreDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE4821C8E53F00D79829 /* CPChartNetworkUsageCoreDataStore.m */; };
+		2B07FE4A21C8E53F00D79829 /* CPChartNetworkUsageCoreDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE4821C8E53F00D79829 /* CPChartNetworkUsageCoreDataStore.m */; };
+		2B07FE4B21C8E53F00D79829 /* CPChartNetworkUsageCoreDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE4821C8E53F00D79829 /* CPChartNetworkUsageCoreDataStore.m */; };
+		2B07FE4E21C8E79900D79829 /* CPChartNetworkUsageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE4D21C8E79900D79829 /* CPChartNetworkUsageItem.m */; };
+		2B07FE4F21C8E79900D79829 /* CPChartNetworkUsageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE4D21C8E79900D79829 /* CPChartNetworkUsageItem.m */; };
+		2B07FE5021C8E79900D79829 /* CPChartNetworkUsageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE4D21C8E79900D79829 /* CPChartNetworkUsageItem.m */; };
+		2B07FE6721C8EA9600D79829 /* CPChartNetworkUsageDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE5521C8EA9500D79829 /* CPChartNetworkUsageDataManager.m */; };
+		2B07FE6821C8EA9600D79829 /* CPChartNetworkUsageDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE5521C8EA9500D79829 /* CPChartNetworkUsageDataManager.m */; };
+		2B07FE6921C8EA9600D79829 /* CPChartNetworkUsageDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE5521C8EA9500D79829 /* CPChartNetworkUsageDataManager.m */; };
+		2B07FE6A21C8EA9600D79829 /* CPChartNetworkUsageInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE5821C8EA9500D79829 /* CPChartNetworkUsageInteractor.m */; };
+		2B07FE6B21C8EA9600D79829 /* CPChartNetworkUsageInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE5821C8EA9500D79829 /* CPChartNetworkUsageInteractor.m */; };
+		2B07FE6C21C8EA9600D79829 /* CPChartNetworkUsageInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE5821C8EA9500D79829 /* CPChartNetworkUsageInteractor.m */; };
+		2B07FE6D21C8EA9600D79829 /* CPChartNetworkUsagePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE5F21C8EA9500D79829 /* CPChartNetworkUsagePresenter.m */; };
+		2B07FE6E21C8EA9600D79829 /* CPChartNetworkUsagePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE5F21C8EA9500D79829 /* CPChartNetworkUsagePresenter.m */; };
+		2B07FE6F21C8EA9600D79829 /* CPChartNetworkUsagePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE5F21C8EA9500D79829 /* CPChartNetworkUsagePresenter.m */; };
+		2B07FE7021C8EA9600D79829 /* CPChartNetworkUsageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE6221C8EA9500D79829 /* CPChartNetworkUsageViewController.m */; };
+		2B07FE7121C8EA9600D79829 /* CPChartNetworkUsageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE6221C8EA9500D79829 /* CPChartNetworkUsageViewController.m */; };
+		2B07FE7221C8EA9600D79829 /* CPChartNetworkUsageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE6221C8EA9500D79829 /* CPChartNetworkUsageViewController.m */; };
+		2B07FE7321C8EA9600D79829 /* CPChartNetworkUsageWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE6621C8EA9500D79829 /* CPChartNetworkUsageWireframe.m */; };
+		2B07FE7421C8EA9600D79829 /* CPChartNetworkUsageWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE6621C8EA9500D79829 /* CPChartNetworkUsageWireframe.m */; };
+		2B07FE7521C8EA9600D79829 /* CPChartNetworkUsageWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE6621C8EA9500D79829 /* CPChartNetworkUsageWireframe.m */; };
+		2B07FE7721C8F09400D79829 /* CPChartNetworkUsageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B07FE7621C8F09400D79829 /* CPChartNetworkUsageViewController.storyboard */; };
+		2B07FE7821C8F09400D79829 /* CPChartNetworkUsageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B07FE7621C8F09400D79829 /* CPChartNetworkUsageViewController.storyboard */; };
+		2B07FE7921C8F09400D79829 /* CPChartNetworkUsageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B07FE7621C8F09400D79829 /* CPChartNetworkUsageViewController.storyboard */; };
+		2B07FE7C21C8FF7D00D79829 /* CPManagedGPUUsageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE7B21C8FF7D00D79829 /* CPManagedGPUUsageItem.m */; };
+		2B07FE7D21C8FF7D00D79829 /* CPManagedGPUUsageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE7B21C8FF7D00D79829 /* CPManagedGPUUsageItem.m */; };
+		2B07FE7E21C8FF7D00D79829 /* CPManagedGPUUsageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE7B21C8FF7D00D79829 /* CPManagedGPUUsageItem.m */; };
+		2B07FE8121C900F600D79829 /* CPChartGPUUsageCoreDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE8021C900F600D79829 /* CPChartGPUUsageCoreDataStore.m */; };
+		2B07FE8221C900F600D79829 /* CPChartGPUUsageCoreDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE8021C900F600D79829 /* CPChartGPUUsageCoreDataStore.m */; };
+		2B07FE8321C900F600D79829 /* CPChartGPUUsageCoreDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE8021C900F600D79829 /* CPChartGPUUsageCoreDataStore.m */; };
+		2B07FE9A21C9017700D79829 /* CPChartGPUUsageDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE8821C9017700D79829 /* CPChartGPUUsageDataManager.m */; };
+		2B07FE9B21C9017700D79829 /* CPChartGPUUsageDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE8821C9017700D79829 /* CPChartGPUUsageDataManager.m */; };
+		2B07FE9C21C9017700D79829 /* CPChartGPUUsageDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE8821C9017700D79829 /* CPChartGPUUsageDataManager.m */; };
+		2B07FE9D21C9017700D79829 /* CPChartGPUUsageInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE8B21C9017700D79829 /* CPChartGPUUsageInteractor.m */; };
+		2B07FE9E21C9017700D79829 /* CPChartGPUUsageInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE8B21C9017700D79829 /* CPChartGPUUsageInteractor.m */; };
+		2B07FE9F21C9017700D79829 /* CPChartGPUUsageInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE8B21C9017700D79829 /* CPChartGPUUsageInteractor.m */; };
+		2B07FEA021C9017700D79829 /* CPChartGPUUsagePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE9221C9017700D79829 /* CPChartGPUUsagePresenter.m */; };
+		2B07FEA121C9017700D79829 /* CPChartGPUUsagePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE9221C9017700D79829 /* CPChartGPUUsagePresenter.m */; };
+		2B07FEA221C9017700D79829 /* CPChartGPUUsagePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE9221C9017700D79829 /* CPChartGPUUsagePresenter.m */; };
+		2B07FEA321C9017700D79829 /* CPChartGPUUsageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE9521C9017700D79829 /* CPChartGPUUsageViewController.m */; };
+		2B07FEA421C9017700D79829 /* CPChartGPUUsageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE9521C9017700D79829 /* CPChartGPUUsageViewController.m */; };
+		2B07FEA521C9017700D79829 /* CPChartGPUUsageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE9521C9017700D79829 /* CPChartGPUUsageViewController.m */; };
+		2B07FEA621C9017700D79829 /* CPChartGPUUsageWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE9921C9017700D79829 /* CPChartGPUUsageWireframe.m */; };
+		2B07FEA721C9017700D79829 /* CPChartGPUUsageWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE9921C9017700D79829 /* CPChartGPUUsageWireframe.m */; };
+		2B07FEA821C9017700D79829 /* CPChartGPUUsageWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FE9921C9017700D79829 /* CPChartGPUUsageWireframe.m */; };
+		2B07FEAB21C9036400D79829 /* CPChartGPUUsageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FEAA21C9036400D79829 /* CPChartGPUUsageItem.m */; };
+		2B07FEAC21C9036400D79829 /* CPChartGPUUsageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FEAA21C9036400D79829 /* CPChartGPUUsageItem.m */; };
+		2B07FEAD21C9036400D79829 /* CPChartGPUUsageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B07FEAA21C9036400D79829 /* CPChartGPUUsageItem.m */; };
+		2B07FEAF21C9047F00D79829 /* CPChartGPUUsageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B07FEAE21C9047F00D79829 /* CPChartGPUUsageViewController.storyboard */; };
+		2B07FEB021C9047F00D79829 /* CPChartGPUUsageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B07FEAE21C9047F00D79829 /* CPChartGPUUsageViewController.storyboard */; };
+		2B07FEB121C9047F00D79829 /* CPChartGPUUsageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B07FEAE21C9047F00D79829 /* CPChartGPUUsageViewController.storyboard */; };
+		2B1EE34B21C204C0002F19A4 /* ChartList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B1EE34A21C204C0002F19A4 /* ChartList.plist */; };
+		2B1EE34C21C204C0002F19A4 /* ChartList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B1EE34A21C204C0002F19A4 /* ChartList.plist */; };
+		2B1EE34D21C204C0002F19A4 /* ChartList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B1EE34A21C204C0002F19A4 /* ChartList.plist */; };
+		2B1EE35021C20E28002F19A4 /* CPChartCPUUsageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1EE34F21C20E28002F19A4 /* CPChartCPUUsageViewController.storyboard */; };
+		2B1EE35121C20E28002F19A4 /* CPChartCPUUsageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1EE34F21C20E28002F19A4 /* CPChartCPUUsageViewController.storyboard */; };
+		2B1EE35221C20E28002F19A4 /* CPChartCPUUsageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1EE34F21C20E28002F19A4 /* CPChartCPUUsageViewController.storyboard */; };
+		2B1EE35B21C20FE1002F19A4 /* CPChartCPUUsageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1EE35A21C20FE1002F19A4 /* CPChartCPUUsageViewController.m */; };
+		2B1EE35C21C20FE1002F19A4 /* CPChartCPUUsageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1EE35A21C20FE1002F19A4 /* CPChartCPUUsageViewController.m */; };
+		2B1EE35D21C20FE1002F19A4 /* CPChartCPUUsageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1EE35A21C20FE1002F19A4 /* CPChartCPUUsageViewController.m */; };
+		2B1EE36021C21323002F19A4 /* CPChartCPUUsageWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1EE35F21C21323002F19A4 /* CPChartCPUUsageWireframe.m */; };
+		2B1EE36121C21323002F19A4 /* CPChartCPUUsageWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1EE35F21C21323002F19A4 /* CPChartCPUUsageWireframe.m */; };
+		2B1EE36221C21323002F19A4 /* CPChartCPUUsageWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1EE35F21C21323002F19A4 /* CPChartCPUUsageWireframe.m */; };
+		2B1EE36721C23D47002F19A4 /* CPChartCPUUsagePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1EE36621C23D47002F19A4 /* CPChartCPUUsagePresenter.m */; };
+		2B1EE36821C23D47002F19A4 /* CPChartCPUUsagePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1EE36621C23D47002F19A4 /* CPChartCPUUsagePresenter.m */; };
+		2B1EE36921C23D47002F19A4 /* CPChartCPUUsagePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1EE36621C23D47002F19A4 /* CPChartCPUUsagePresenter.m */; };
+		2B1EE37321C24AAD002F19A4 /* CPChartCPUUsageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1EE37221C24AAD002F19A4 /* CPChartCPUUsageItem.m */; };
+		2B1EE37421C24AAD002F19A4 /* CPChartCPUUsageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1EE37221C24AAD002F19A4 /* CPChartCPUUsageItem.m */; };
+		2B1EE37521C24AAD002F19A4 /* CPChartCPUUsageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1EE37221C24AAD002F19A4 /* CPChartCPUUsageItem.m */; };
+		2B7F443E21C0B00900694449 /* CPListChartDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F443D21C0B00900694449 /* CPListChartDataManager.m */; };
+		2B7F444221C0B5A100694449 /* CPCoreDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F444121C0B5A100694449 /* CPCoreDataStore.m */; };
+		2B7F444621C0B60C00694449 /* CPChartItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F444521C0B60C00694449 /* CPChartItem.m */; };
+		2B7F444A21C0B97800694449 /* StringConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F444921C0B97800694449 /* StringConst.m */; };
+		2B7F444F21C0CAFC00694449 /* NSArray+HOM.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F444E21C0CAFC00694449 /* NSArray+HOM.m */; };
+		2B8F903D21C356E300578D83 /* CPDateValueFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8F903C21C356E300578D83 /* CPDateValueFormatter.m */; };
+		2B8F904021C35BCD00578D83 /* CPUUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8F903F21C35BCD00578D83 /* CPUUsage.m */; };
+		2B8F904121C35BCD00578D83 /* CPUUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8F903F21C35BCD00578D83 /* CPUUsage.m */; };
+		2B8F904221C35BCD00578D83 /* CPUUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8F903F21C35BCD00578D83 /* CPUUsage.m */; };
+		2B8F904621C35DDA00578D83 /* CPChartCPUUsageInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8F904521C35DDA00578D83 /* CPChartCPUUsageInteractor.m */; };
+		2B8F904721C35DDA00578D83 /* CPChartCPUUsageInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8F904521C35DDA00578D83 /* CPChartCPUUsageInteractor.m */; };
+		2B8F904821C35DDA00578D83 /* CPChartCPUUsageInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8F904521C35DDA00578D83 /* CPChartCPUUsageInteractor.m */; };
+		2B8F904C21C35F4500578D83 /* CPChartCPUUsageDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8F904B21C35F4500578D83 /* CPChartCPUUsageDataManager.m */; };
+		2B8F904D21C35F4500578D83 /* CPChartCPUUsageDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8F904B21C35F4500578D83 /* CPChartCPUUsageDataManager.m */; };
+		2B8F904E21C35F4500578D83 /* CPChartCPUUsageDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8F904B21C35F4500578D83 /* CPChartCPUUsageDataManager.m */; };
+		2B8F905121C36B6B00578D83 /* CPChartCPUUsageCoreDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8F905021C36B6B00578D83 /* CPChartCPUUsageCoreDataStore.m */; };
+		2B8F905221C36B6B00578D83 /* CPChartCPUUsageCoreDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8F905021C36B6B00578D83 /* CPChartCPUUsageCoreDataStore.m */; };
+		2B8F905321C36B6B00578D83 /* CPChartCPUUsageCoreDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8F905021C36B6B00578D83 /* CPChartCPUUsageCoreDataStore.m */; };
+		2B8F905C21C36F7100578D83 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1EE37B21C26E00002F19A4 /* Charts.framework */; };
+		2B8F905F21C36FED00578D83 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8F905E21C36FEC00578D83 /* CoreData.framework */; };
+		2B8F906221C3702100578D83 /* CPManagedCPUUsageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8F906121C3702100578D83 /* CPManagedCPUUsageItem.m */; };
+		2B8F906321C3702100578D83 /* CPManagedCPUUsageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8F906121C3702100578D83 /* CPManagedCPUUsageItem.m */; };
+		2B8F906421C3702100578D83 /* CPManagedCPUUsageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8F906121C3702100578D83 /* CPManagedCPUUsageItem.m */; };
+		2B8F906721C38A6400578D83 /* PerformanceHistory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B8F906521C38A6400578D83 /* PerformanceHistory.xcdatamodeld */; };
+		2B8F906821C38A6400578D83 /* PerformanceHistory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B8F906521C38A6400578D83 /* PerformanceHistory.xcdatamodeld */; };
+		2B8F906921C38A6400578D83 /* PerformanceHistory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B8F906521C38A6400578D83 /* PerformanceHistory.xcdatamodeld */; };
+		2BB29D1B21BE54FA0019E2D8 /* CPUPerformentChartExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB29D1A21BE54FA0019E2D8 /* CPUPerformentChartExample.swift */; };
+		2BB29D1C21BE54FA0019E2D8 /* CPUPerformentChartExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB29D1A21BE54FA0019E2D8 /* CPUPerformentChartExample.swift */; };
+		2BB29D1D21BE54FA0019E2D8 /* CPUPerformentChartExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB29D1A21BE54FA0019E2D8 /* CPUPerformentChartExample.swift */; };
+		2BB29D2A21BE69C50019E2D8 /* CPListChartWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB29D2921BE69C50019E2D8 /* CPListChartWireframe.m */; };
+		2BB29D2B21BE69C50019E2D8 /* CPListChartWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB29D2921BE69C50019E2D8 /* CPListChartWireframe.m */; };
+		2BB29D2C21BE69C50019E2D8 /* CPListChartWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB29D2921BE69C50019E2D8 /* CPListChartWireframe.m */; };
+		2BCB583521BE1B8D00A873C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCB583421BE1B8D00A873C3 /* AppDelegate.m */; };
+		2BCB583B21BE1B8E00A873C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BCB583921BE1B8E00A873C3 /* Main.storyboard */; };
+		2BCB583D21BE1BAD00A873C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BCB583C21BE1BAD00A873C3 /* Assets.xcassets */; };
+		2BCB584021BE1BAD00A873C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BCB583E21BE1BAD00A873C3 /* LaunchScreen.storyboard */; };
+		2BCB584321BE1BAD00A873C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCB584221BE1BAD00A873C3 /* main.m */; };
+		2BCB584D21BE1BB000A873C3 /* CPUPerformentChartExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCB584C21BE1BB000A873C3 /* CPUPerformentChartExampleTests.m */; };
+		2BCB585821BE1BB000A873C3 /* CPUPerformentChartExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCB585721BE1BB000A873C3 /* CPUPerformentChartExampleUITests.m */; };
+		2BCE797621BFA258007CB4C4 /* CPBaseWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCE797521BFA258007CB4C4 /* CPBaseWireframe.m */; };
+		2BCE797921BFA2C4007CB4C4 /* CPStoryboardUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCE797821BFA2C4007CB4C4 /* CPStoryboardUtility.m */; };
+		2BCE797C21BFA614007CB4C4 /* CPRootWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCE797B21BFA614007CB4C4 /* CPRootWireframe.m */; };
+		2BCE797F21BFAB04007CB4C4 /* CPAppDependencies.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCE797E21BFAB04007CB4C4 /* CPAppDependencies.m */; };
+		2BCE798321BFAFC2007CB4C4 /* CPListChartPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCE798221BFAFC2007CB4C4 /* CPListChartPresenter.m */; };
+		2BCE798621BFB4DA007CB4C4 /* CPListChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCE798521BFB4DA007CB4C4 /* CPListChartViewController.m */; };
+		2BCE798F21BFC8FD007CB4C4 /* CPListChartInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCE798E21BFC8FD007CB4C4 /* CPListChartInteractor.m */; };
+		2BE1EE5721C9E87100F06E08 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE1EE5621C9E87100F06E08 /* AFNetworking.framework */; };
+		2BF2858F21C755D40047899A /* CPBaseDisplayData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF2858E21C755D40047899A /* CPBaseDisplayData.m */; };
+		2BF2859221C757AE0047899A /* CPBaseDisplaySection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF2859121C757AE0047899A /* CPBaseDisplaySection.m */; };
+		2BF2859521C75D5D0047899A /* CPBaseDisplayItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF2859421C75D5D0047899A /* CPBaseDisplayItem.m */; };
+		2BF2859821C763CD0047899A /* CPBaseDisplayDataCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF2859721C763CD0047899A /* CPBaseDisplayDataCollector.m */; };
+		2BF285A021C793FB0047899A /* CPListChartDisplayItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF2859F21C793FB0047899A /* CPListChartDisplayItem.m */; };
+		2BF285A321C7987F0047899A /* CPListChartDisplayDataCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF285A221C7987F0047899A /* CPListChartDisplayDataCollector.m */; };
+		2BF285BF21C7AFDF0047899A /* CPChartRAMUsageDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF285AD21C7AFDF0047899A /* CPChartRAMUsageDataManager.m */; };
+		2BF285C021C7AFDF0047899A /* CPChartRAMUsageDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF285AD21C7AFDF0047899A /* CPChartRAMUsageDataManager.m */; };
+		2BF285C121C7AFDF0047899A /* CPChartRAMUsageDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF285AD21C7AFDF0047899A /* CPChartRAMUsageDataManager.m */; };
+		2BF285C221C7AFDF0047899A /* CPChartRAMUsageInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF285B021C7AFDF0047899A /* CPChartRAMUsageInteractor.m */; };
+		2BF285C321C7AFDF0047899A /* CPChartRAMUsageInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF285B021C7AFDF0047899A /* CPChartRAMUsageInteractor.m */; };
+		2BF285C421C7AFDF0047899A /* CPChartRAMUsageInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF285B021C7AFDF0047899A /* CPChartRAMUsageInteractor.m */; };
+		2BF285C521C7AFDF0047899A /* CPChartRAMUsagePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF285B721C7AFDF0047899A /* CPChartRAMUsagePresenter.m */; };
+		2BF285C621C7AFDF0047899A /* CPChartRAMUsagePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF285B721C7AFDF0047899A /* CPChartRAMUsagePresenter.m */; };
+		2BF285C721C7AFDF0047899A /* CPChartRAMUsagePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF285B721C7AFDF0047899A /* CPChartRAMUsagePresenter.m */; };
+		2BF285C821C7AFDF0047899A /* CPChartRAMUsageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF285BA21C7AFDF0047899A /* CPChartRAMUsageViewController.m */; };
+		2BF285C921C7AFDF0047899A /* CPChartRAMUsageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF285BA21C7AFDF0047899A /* CPChartRAMUsageViewController.m */; };
+		2BF285CA21C7AFDF0047899A /* CPChartRAMUsageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF285BA21C7AFDF0047899A /* CPChartRAMUsageViewController.m */; };
+		2BF285CB21C7AFDF0047899A /* CPChartRAMUsageWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF285BE21C7AFDF0047899A /* CPChartRAMUsageWireframe.m */; };
+		2BF285CC21C7AFDF0047899A /* CPChartRAMUsageWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF285BE21C7AFDF0047899A /* CPChartRAMUsageWireframe.m */; };
+		2BF285CD21C7AFDF0047899A /* CPChartRAMUsageWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF285BE21C7AFDF0047899A /* CPChartRAMUsageWireframe.m */; };
+		2BF285D021C7B2D40047899A /* CPChartRAMUsageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF285CF21C7B2D40047899A /* CPChartRAMUsageItem.m */; };
+		2BF285D121C7B2D40047899A /* CPChartRAMUsageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF285CF21C7B2D40047899A /* CPChartRAMUsageItem.m */; };
+		2BF285D221C7B2D40047899A /* CPChartRAMUsageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF285CF21C7B2D40047899A /* CPChartRAMUsageItem.m */; };
+		3A0CE305B182BAADF21D8F10 /* Pods_CPUPerformentChartExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D7F960B4AFCCDC2870E5B6B /* Pods_CPUPerformentChartExample.framework */; };
+		8DAE07320FA4DCAA2BF68F6D /* Pods_CPUPerformentChartExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31825DA16B3B2946A84C639F /* Pods_CPUPerformentChartExampleUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BCB584921BE1BB000A873C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BCB582821BE1B8C00A873C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BCB582F21BE1B8C00A873C3;
+			remoteInfo = CPUPerformentChartExample;
+		};
+		2BCB585421BE1BB000A873C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BCB582821BE1B8C00A873C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BCB582F21BE1B8C00A873C3;
+			remoteInfo = CPUPerformentChartExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2B8F905B21C36F1B00578D83 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		05458431AEBD7DF7F2B77BC0 /* Pods-CPUPerformentChartExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPUPerformentChartExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CPUPerformentChartExampleTests/Pods-CPUPerformentChartExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		24BEFF9D6D731CF61CAA6E20 /* Pods-CPUPerformentChartExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPUPerformentChartExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CPUPerformentChartExampleTests/Pods-CPUPerformentChartExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		2B07FE1B21C892DB00D79829 /* CPManagedRAMUsageItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPManagedRAMUsageItem.h; sourceTree = "<group>"; };
+		2B07FE1C21C892DB00D79829 /* CPManagedRAMUsageItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPManagedRAMUsageItem.m; sourceTree = "<group>"; };
+		2B07FE2021C8937000D79829 /* CPManagedBaseUsageItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPManagedBaseUsageItem.h; sourceTree = "<group>"; };
+		2B07FE2121C8937000D79829 /* CPManagedBaseUsageItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPManagedBaseUsageItem.m; sourceTree = "<group>"; };
+		2B07FE2521C8945800D79829 /* CPBaseUsageCoreDataStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPBaseUsageCoreDataStore.h; sourceTree = "<group>"; };
+		2B07FE2621C8945800D79829 /* CPBaseUsageCoreDataStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPBaseUsageCoreDataStore.m; sourceTree = "<group>"; };
+		2B07FE2A21C8A22F00D79829 /* CPChartRAMUsageCoreDataStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPChartRAMUsageCoreDataStore.h; sourceTree = "<group>"; };
+		2B07FE2B21C8A22F00D79829 /* CPChartRAMUsageCoreDataStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPChartRAMUsageCoreDataStore.m; sourceTree = "<group>"; };
+		2B07FE2F21C8A62E00D79829 /* RAMUsage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAMUsage.h; sourceTree = "<group>"; };
+		2B07FE3021C8A62E00D79829 /* RAMUsage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAMUsage.m; sourceTree = "<group>"; };
+		2B07FE3421C8ABCE00D79829 /* CPChartRAMUsageViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CPChartRAMUsageViewController.storyboard; sourceTree = "<group>"; };
+		2B07FE3821C8D4EF00D79829 /* NetworkUsage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkUsage.h; sourceTree = "<group>"; };
+		2B07FE3921C8D4EF00D79829 /* NetworkUsage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkUsage.m; sourceTree = "<group>"; };
+		2B07FE3D21C8DCD300D79829 /* GPUUsage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPUUsage.h; sourceTree = "<group>"; };
+		2B07FE3E21C8DCD300D79829 /* GPUUsage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPUUsage.m; sourceTree = "<group>"; };
+		2B07FE4221C8E3BC00D79829 /* CPManagedNetworkUsageItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPManagedNetworkUsageItem.h; sourceTree = "<group>"; };
+		2B07FE4321C8E3BC00D79829 /* CPManagedNetworkUsageItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPManagedNetworkUsageItem.m; sourceTree = "<group>"; };
+		2B07FE4721C8E53F00D79829 /* CPChartNetworkUsageCoreDataStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPChartNetworkUsageCoreDataStore.h; sourceTree = "<group>"; };
+		2B07FE4821C8E53F00D79829 /* CPChartNetworkUsageCoreDataStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPChartNetworkUsageCoreDataStore.m; sourceTree = "<group>"; };
+		2B07FE4C21C8E79900D79829 /* CPChartNetworkUsageItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPChartNetworkUsageItem.h; sourceTree = "<group>"; };
+		2B07FE4D21C8E79900D79829 /* CPChartNetworkUsageItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPChartNetworkUsageItem.m; sourceTree = "<group>"; };
+		2B07FE5421C8EA9500D79829 /* CPChartNetworkUsageDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPChartNetworkUsageDataManager.h; sourceTree = "<group>"; };
+		2B07FE5521C8EA9500D79829 /* CPChartNetworkUsageDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPChartNetworkUsageDataManager.m; sourceTree = "<group>"; };
+		2B07FE5721C8EA9500D79829 /* CPChartNetworkUsageInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPChartNetworkUsageInteractor.h; sourceTree = "<group>"; };
+		2B07FE5821C8EA9500D79829 /* CPChartNetworkUsageInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPChartNetworkUsageInteractor.m; sourceTree = "<group>"; };
+		2B07FE5921C8EA9500D79829 /* CPChartNetworkUsageIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPChartNetworkUsageIO.h; sourceTree = "<group>"; };
+		2B07FE5B21C8EA9500D79829 /* CPChartNetworkUsageModuleInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPChartNetworkUsageModuleInterface.h; sourceTree = "<group>"; };
+		2B07FE5E21C8EA9500D79829 /* CPChartNetworkUsagePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPChartNetworkUsagePresenter.h; sourceTree = "<group>"; };
+		2B07FE5F21C8EA9500D79829 /* CPChartNetworkUsagePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPChartNetworkUsagePresenter.m; sourceTree = "<group>"; };
+		2B07FE6121C8EA9500D79829 /* CPChartNetworkUsageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPChartNetworkUsageViewController.h; sourceTree = "<group>"; };
+		2B07FE6221C8EA9500D79829 /* CPChartNetworkUsageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPChartNetworkUsageViewController.m; sourceTree = "<group>"; };
+		2B07FE6321C8EA9500D79829 /* CPChartNetworkUsageViewInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPChartNetworkUsageViewInterface.h; sourceTree = "<group>"; };
+		2B07FE6521C8EA9500D79829 /* CPChartNetworkUsageWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPChartNetworkUsageWireframe.h; sourceTree = "<group>"; };
+		2B07FE6621C8EA9500D79829 /* CPChartNetworkUsageWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPChartNetworkUsageWireframe.m; sourceTree = "<group>"; };
+		2B07FE7621C8F09400D79829 /* CPChartNetworkUsageViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CPChartNetworkUsageViewController.storyboard; sourceTree = "<group>"; };
+		2B07FE7A21C8FF7D00D79829 /* CPManagedGPUUsageItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPManagedGPUUsageItem.h; sourceTree = "<group>"; };
+		2B07FE7B21C8FF7D00D79829 /* CPManagedGPUUsageItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPManagedGPUUsageItem.m; sourceTree = "<group>"; };
+		2B07FE7F21C900F600D79829 /* CPChartGPUUsageCoreDataStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPChartGPUUsageCoreDataStore.h; sourceTree = "<group>"; };
+		2B07FE8021C900F600D79829 /* CPChartGPUUsageCoreDataStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPChartGPUUsageCoreDataStore.m; sourceTree = "<group>"; };
+		2B07FE8721C9017700D79829 /* CPChartGPUUsageDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPChartGPUUsageDataManager.h; sourceTree = "<group>"; };
+		2B07FE8821C9017700D79829 /* CPChartGPUUsageDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPChartGPUUsageDataManager.m; sourceTree = "<group>"; };
+		2B07FE8A21C9017700D79829 /* CPChartGPUUsageInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPChartGPUUsageInteractor.h; sourceTree = "<group>"; };
+		2B07FE8B21C9017700D79829 /* CPChartGPUUsageInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPChartGPUUsageInteractor.m; sourceTree = "<group>"; };
+		2B07FE8C21C9017700D79829 /* CPChartGPUUsageIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPChartGPUUsageIO.h; sourceTree = "<group>"; };
+		2B07FE8E21C9017700D79829 /* CPChartGPUUsageModuleInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPChartGPUUsageModuleInterface.h; sourceTree = "<group>"; };
+		2B07FE9121C9017700D79829 /* CPChartGPUUsagePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPChartGPUUsagePresenter.h; sourceTree = "<group>"; };
+		2B07FE9221C9017700D79829 /* CPChartGPUUsagePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPChartGPUUsagePresenter.m; sourceTree = "<group>"; };
+		2B07FE9421C9017700D79829 /* CPChartGPUUsageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPChartGPUUsageViewController.h; sourceTree = "<group>"; };
+		2B07FE9521C9017700D79829 /* CPChartGPUUsageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPChartGPUUsageViewController.m; sourceTree = "<group>"; };
+		2B07FE9621C9017700D79829 /* CPChartGPUUsageViewInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPChartGPUUsageViewInterface.h; sourceTree = "<group>"; };
+		2B07FE9821C9017700D79829 /* CPChartGPUUsageWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPChartGPUUsageWireframe.h; sourceTree = "<group>"; };
+		2B07FE9921C9017700D79829 /* CPChartGPUUsageWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPChartGPUUsageWireframe.m; sourceTree = "<group>"; };
+		2B07FEA921C9036400D79829 /* CPChartGPUUsageItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPChartGPUUsageItem.h; sourceTree = "<group>"; };
+		2B07FEAA21C9036400D79829 /* CPChartGPUUsageItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPChartGPUUsageItem.m; sourceTree = "<group>"; };
+		2B07FEAE21C9047F00D79829 /* CPChartGPUUsageViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CPChartGPUUsageViewController.storyboard; sourceTree = "<group>"; };
+		2B1EE34A21C204C0002F19A4 /* ChartList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ChartList.plist; sourceTree = "<group>"; };
+		2B1EE34F21C20E28002F19A4 /* CPChartCPUUsageViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CPChartCPUUsageViewController.storyboard; sourceTree = "<group>"; };
+		2B1EE35921C20FE1002F19A4 /* CPChartCPUUsageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPChartCPUUsageViewController.h; sourceTree = "<group>"; };
+		2B1EE35A21C20FE1002F19A4 /* CPChartCPUUsageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPChartCPUUsageViewController.m; sourceTree = "<group>"; };
+		2B1EE35E21C21323002F19A4 /* CPChartCPUUsageWireframe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPChartCPUUsageWireframe.h; sourceTree = "<group>"; };
+		2B1EE35F21C21323002F19A4 /* CPChartCPUUsageWireframe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPChartCPUUsageWireframe.m; sourceTree = "<group>"; };
+		2B1EE36521C23D47002F19A4 /* CPChartCPUUsagePresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPChartCPUUsagePresenter.h; sourceTree = "<group>"; };
+		2B1EE36621C23D47002F19A4 /* CPChartCPUUsagePresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPChartCPUUsagePresenter.m; sourceTree = "<group>"; };
+		2B1EE36A21C23DC1002F19A4 /* CPChartCPUUsageViewInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPChartCPUUsageViewInterface.h; sourceTree = "<group>"; };
+		2B1EE36C21C240FF002F19A4 /* CPListChartModuleInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPListChartModuleInterface.h; sourceTree = "<group>"; };
+		2B1EE36D21C24367002F19A4 /* CPChartCPUUsageModuleInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPChartCPUUsageModuleInterface.h; sourceTree = "<group>"; };
+		2B1EE36F21C245DA002F19A4 /* CPChartCPUUsageIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPChartCPUUsageIO.h; sourceTree = "<group>"; };
+		2B1EE37121C24AAD002F19A4 /* CPChartCPUUsageItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPChartCPUUsageItem.h; sourceTree = "<group>"; };
+		2B1EE37221C24AAD002F19A4 /* CPChartCPUUsageItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPChartCPUUsageItem.m; sourceTree = "<group>"; };
+		2B1EE37621C2550A002F19A4 /* libCharts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCharts.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B1EE37821C25881002F19A4 /* libCharts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCharts.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B1EE37B21C26E00002F19A4 /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B7F443C21C0B00900694449 /* CPListChartDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPListChartDataManager.h; sourceTree = "<group>"; };
+		2B7F443D21C0B00900694449 /* CPListChartDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPListChartDataManager.m; sourceTree = "<group>"; };
+		2B7F444021C0B5A100694449 /* CPCoreDataStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPCoreDataStore.h; sourceTree = "<group>"; };
+		2B7F444121C0B5A100694449 /* CPCoreDataStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPCoreDataStore.m; sourceTree = "<group>"; };
+		2B7F444421C0B60C00694449 /* CPChartItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPChartItem.h; sourceTree = "<group>"; };
+		2B7F444521C0B60C00694449 /* CPChartItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPChartItem.m; sourceTree = "<group>"; };
+		2B7F444821C0B97800694449 /* StringConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringConst.h; sourceTree = "<group>"; };
+		2B7F444921C0B97800694449 /* StringConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringConst.m; sourceTree = "<group>"; };
+		2B7F444B21C0BA7300694449 /* CPConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPConst.h; sourceTree = "<group>"; };
+		2B7F444D21C0CAFC00694449 /* NSArray+HOM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+HOM.h"; sourceTree = "<group>"; };
+		2B7F444E21C0CAFC00694449 /* NSArray+HOM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HOM.m"; sourceTree = "<group>"; };
+		2B7F445021C0ED6400694449 /* CPListChartIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPListChartIO.h; sourceTree = "<group>"; };
+		2B8F903B21C356E300578D83 /* CPDateValueFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPDateValueFormatter.h; sourceTree = "<group>"; };
+		2B8F903C21C356E300578D83 /* CPDateValueFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPDateValueFormatter.m; sourceTree = "<group>"; };
+		2B8F903E21C35BCD00578D83 /* CPUUsage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPUUsage.h; sourceTree = "<group>"; };
+		2B8F903F21C35BCD00578D83 /* CPUUsage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPUUsage.m; sourceTree = "<group>"; };
+		2B8F904421C35DDA00578D83 /* CPChartCPUUsageInteractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPChartCPUUsageInteractor.h; sourceTree = "<group>"; };
+		2B8F904521C35DDA00578D83 /* CPChartCPUUsageInteractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPChartCPUUsageInteractor.m; sourceTree = "<group>"; };
+		2B8F904A21C35F4500578D83 /* CPChartCPUUsageDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPChartCPUUsageDataManager.h; sourceTree = "<group>"; };
+		2B8F904B21C35F4500578D83 /* CPChartCPUUsageDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPChartCPUUsageDataManager.m; sourceTree = "<group>"; };
+		2B8F904F21C36B6B00578D83 /* CPChartCPUUsageCoreDataStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPChartCPUUsageCoreDataStore.h; sourceTree = "<group>"; };
+		2B8F905021C36B6B00578D83 /* CPChartCPUUsageCoreDataStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPChartCPUUsageCoreDataStore.m; sourceTree = "<group>"; };
+		2B8F905E21C36FEC00578D83 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2B8F906021C3702100578D83 /* CPManagedCPUUsageItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPManagedCPUUsageItem.h; sourceTree = "<group>"; };
+		2B8F906121C3702100578D83 /* CPManagedCPUUsageItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPManagedCPUUsageItem.m; sourceTree = "<group>"; };
+		2B8F906621C38A6400578D83 /* PerformanceHistory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PerformanceHistory.xcdatamodel; sourceTree = "<group>"; };
+		2BB29D1321BE51E00019E2D8 /* CPUPerformentChartExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CPUPerformentChartExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		2BB29D1421BE51E00019E2D8 /* CPUPerformentChartExampleTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CPUPerformentChartExampleTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		2BB29D1521BE51E00019E2D8 /* CPUPerformentChartExampleUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CPUPerformentChartExampleUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		2BB29D1A21BE54FA0019E2D8 /* CPUPerformentChartExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CPUPerformentChartExample.swift; sourceTree = "<group>"; };
+		2BB29D2421BE63B00019E2D8 /* CPUPerformentChartExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CPUPerformentChartExample-Prefix.pch"; sourceTree = "<group>"; };
+		2BB29D2821BE69C50019E2D8 /* CPListChartWireframe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPListChartWireframe.h; sourceTree = "<group>"; };
+		2BB29D2921BE69C50019E2D8 /* CPListChartWireframe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPListChartWireframe.m; sourceTree = "<group>"; };
+		2BCB583021BE1B8C00A873C3 /* CPUPerformentChartExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPUPerformentChartExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BCB583321BE1B8D00A873C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BCB583421BE1B8D00A873C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BCB583A21BE1B8E00A873C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BCB583C21BE1BAD00A873C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BCB583F21BE1BAD00A873C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BCB584121BE1BAD00A873C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BCB584221BE1BAD00A873C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BCB584821BE1BB000A873C3 /* CPUPerformentChartExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPUPerformentChartExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BCB584C21BE1BB000A873C3 /* CPUPerformentChartExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPUPerformentChartExampleTests.m; sourceTree = "<group>"; };
+		2BCB584E21BE1BB000A873C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BCB585321BE1BB000A873C3 /* CPUPerformentChartExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPUPerformentChartExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BCB585721BE1BB000A873C3 /* CPUPerformentChartExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPUPerformentChartExampleUITests.m; sourceTree = "<group>"; };
+		2BCB585921BE1BB000A873C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BCE797421BFA258007CB4C4 /* CPBaseWireframe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPBaseWireframe.h; sourceTree = "<group>"; };
+		2BCE797521BFA258007CB4C4 /* CPBaseWireframe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPBaseWireframe.m; sourceTree = "<group>"; };
+		2BCE797721BFA2C4007CB4C4 /* CPStoryboardUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPStoryboardUtility.h; sourceTree = "<group>"; };
+		2BCE797821BFA2C4007CB4C4 /* CPStoryboardUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPStoryboardUtility.m; sourceTree = "<group>"; };
+		2BCE797A21BFA614007CB4C4 /* CPRootWireframe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPRootWireframe.h; sourceTree = "<group>"; };
+		2BCE797B21BFA614007CB4C4 /* CPRootWireframe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPRootWireframe.m; sourceTree = "<group>"; };
+		2BCE797D21BFAB04007CB4C4 /* CPAppDependencies.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPAppDependencies.h; sourceTree = "<group>"; };
+		2BCE797E21BFAB04007CB4C4 /* CPAppDependencies.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPAppDependencies.m; sourceTree = "<group>"; };
+		2BCE798121BFAFC2007CB4C4 /* CPListChartPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPListChartPresenter.h; sourceTree = "<group>"; };
+		2BCE798221BFAFC2007CB4C4 /* CPListChartPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPListChartPresenter.m; sourceTree = "<group>"; };
+		2BCE798421BFB4DA007CB4C4 /* CPListChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPListChartViewController.h; sourceTree = "<group>"; };
+		2BCE798521BFB4DA007CB4C4 /* CPListChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPListChartViewController.m; sourceTree = "<group>"; };
+		2BCE798821BFB5CB007CB4C4 /* CPListChartViewInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPListChartViewInterface.h; sourceTree = "<group>"; };
+		2BCE798D21BFC8FD007CB4C4 /* CPListChartInteractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPListChartInteractor.h; sourceTree = "<group>"; };
+		2BCE798E21BFC8FD007CB4C4 /* CPListChartInteractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPListChartInteractor.m; sourceTree = "<group>"; };
+		2BE1EE5621C9E87100F06E08 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BF2858D21C755D40047899A /* CPBaseDisplayData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPBaseDisplayData.h; sourceTree = "<group>"; };
+		2BF2858E21C755D40047899A /* CPBaseDisplayData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPBaseDisplayData.m; sourceTree = "<group>"; };
+		2BF2859021C757AE0047899A /* CPBaseDisplaySection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPBaseDisplaySection.h; sourceTree = "<group>"; };
+		2BF2859121C757AE0047899A /* CPBaseDisplaySection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPBaseDisplaySection.m; sourceTree = "<group>"; };
+		2BF2859321C75D5D0047899A /* CPBaseDisplayItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPBaseDisplayItem.h; sourceTree = "<group>"; };
+		2BF2859421C75D5D0047899A /* CPBaseDisplayItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPBaseDisplayItem.m; sourceTree = "<group>"; };
+		2BF2859621C763CD0047899A /* CPBaseDisplayDataCollector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPBaseDisplayDataCollector.h; sourceTree = "<group>"; };
+		2BF2859721C763CD0047899A /* CPBaseDisplayDataCollector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPBaseDisplayDataCollector.m; sourceTree = "<group>"; };
+		2BF2859921C780ED0047899A /* CPBaseDisplayDataCollectorDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPBaseDisplayDataCollectorDelegate.h; sourceTree = "<group>"; };
+		2BF2859E21C793FB0047899A /* CPListChartDisplayItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPListChartDisplayItem.h; sourceTree = "<group>"; };
+		2BF2859F21C793FB0047899A /* CPListChartDisplayItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPListChartDisplayItem.m; sourceTree = "<group>"; };
+		2BF285A121C7987F0047899A /* CPListChartDisplayDataCollector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPListChartDisplayDataCollector.h; sourceTree = "<group>"; };
+		2BF285A221C7987F0047899A /* CPListChartDisplayDataCollector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPListChartDisplayDataCollector.m; sourceTree = "<group>"; };
+		2BF285AC21C7AFDF0047899A /* CPChartRAMUsageDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPChartRAMUsageDataManager.h; sourceTree = "<group>"; };
+		2BF285AD21C7AFDF0047899A /* CPChartRAMUsageDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPChartRAMUsageDataManager.m; sourceTree = "<group>"; };
+		2BF285AF21C7AFDF0047899A /* CPChartRAMUsageInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPChartRAMUsageInteractor.h; sourceTree = "<group>"; };
+		2BF285B021C7AFDF0047899A /* CPChartRAMUsageInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPChartRAMUsageInteractor.m; sourceTree = "<group>"; };
+		2BF285B121C7AFDF0047899A /* CPChartRAMUsageIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPChartRAMUsageIO.h; sourceTree = "<group>"; };
+		2BF285B321C7AFDF0047899A /* CPChartRAMUsageModuleInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPChartRAMUsageModuleInterface.h; sourceTree = "<group>"; };
+		2BF285B621C7AFDF0047899A /* CPChartRAMUsagePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPChartRAMUsagePresenter.h; sourceTree = "<group>"; };
+		2BF285B721C7AFDF0047899A /* CPChartRAMUsagePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPChartRAMUsagePresenter.m; sourceTree = "<group>"; };
+		2BF285B921C7AFDF0047899A /* CPChartRAMUsageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPChartRAMUsageViewController.h; sourceTree = "<group>"; };
+		2BF285BA21C7AFDF0047899A /* CPChartRAMUsageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPChartRAMUsageViewController.m; sourceTree = "<group>"; };
+		2BF285BB21C7AFDF0047899A /* CPChartRAMUsageViewInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPChartRAMUsageViewInterface.h; sourceTree = "<group>"; };
+		2BF285BD21C7AFDF0047899A /* CPChartRAMUsageWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPChartRAMUsageWireframe.h; sourceTree = "<group>"; };
+		2BF285BE21C7AFDF0047899A /* CPChartRAMUsageWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPChartRAMUsageWireframe.m; sourceTree = "<group>"; };
+		2BF285CE21C7B2D40047899A /* CPChartRAMUsageItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPChartRAMUsageItem.h; sourceTree = "<group>"; };
+		2BF285CF21C7B2D40047899A /* CPChartRAMUsageItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPChartRAMUsageItem.m; sourceTree = "<group>"; };
+		2D7F960B4AFCCDC2870E5B6B /* Pods_CPUPerformentChartExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPUPerformentChartExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E583881043EF718F574C11A /* Pods-CPUPerformentChartExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPUPerformentChartExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CPUPerformentChartExample/Pods-CPUPerformentChartExample.debug.xcconfig"; sourceTree = "<group>"; };
+		31825DA16B3B2946A84C639F /* Pods_CPUPerformentChartExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPUPerformentChartExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C28D643CF993B74AFE3D68B /* Pods_CPUPerformentChartExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPUPerformentChartExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5DF4AD817A5A774E26ABE99 /* Pods-CPUPerformentChartExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPUPerformentChartExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-CPUPerformentChartExample/Pods-CPUPerformentChartExample.release.xcconfig"; sourceTree = "<group>"; };
+		D2D5551AAD2AEB9DB26B57A3 /* Pods-CPUPerformentChartExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPUPerformentChartExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CPUPerformentChartExampleUITests/Pods-CPUPerformentChartExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E5832D8BC7740A07E8C84C31 /* Pods-CPUPerformentChartExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPUPerformentChartExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CPUPerformentChartExampleUITests/Pods-CPUPerformentChartExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BCB582D21BE1B8C00A873C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE1EE5721C9E87100F06E08 /* AFNetworking.framework in Frameworks */,
+				2B8F905F21C36FED00578D83 /* CoreData.framework in Frameworks */,
+				3A0CE305B182BAADF21D8F10 /* Pods_CPUPerformentChartExample.framework in Frameworks */,
+				2B8F905C21C36F7100578D83 /* Charts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BCB584521BE1BB000A873C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02A36E681EDEE2FF1ABF82EE /* Pods_CPUPerformentChartExampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BCB585021BE1BB000A873C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DAE07320FA4DCAA2BF68F6D /* Pods_CPUPerformentChartExampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B07FE5121C8EA9500D79829 /* ChartNetworkUsage */ = {
+			isa = PBXGroup;
+			children = (
+				2B07FE5221C8EA9500D79829 /* ApplicationLogic */,
+				2B07FE5A21C8EA9500D79829 /* ModuleInterface */,
+				2B07FE5C21C8EA9500D79829 /* UserInterface */,
+			);
+			path = ChartNetworkUsage;
+			sourceTree = "<group>";
+		};
+		2B07FE5221C8EA9500D79829 /* ApplicationLogic */ = {
+			isa = PBXGroup;
+			children = (
+				2B07FE5321C8EA9500D79829 /* DataManager */,
+				2B07FE5621C8EA9500D79829 /* Interactor */,
+			);
+			path = ApplicationLogic;
+			sourceTree = "<group>";
+		};
+		2B07FE5321C8EA9500D79829 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				2B07FE5421C8EA9500D79829 /* CPChartNetworkUsageDataManager.h */,
+				2B07FE5521C8EA9500D79829 /* CPChartNetworkUsageDataManager.m */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		2B07FE5621C8EA9500D79829 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				2B07FE5721C8EA9500D79829 /* CPChartNetworkUsageInteractor.h */,
+				2B07FE5821C8EA9500D79829 /* CPChartNetworkUsageInteractor.m */,
+				2B07FE5921C8EA9500D79829 /* CPChartNetworkUsageIO.h */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		2B07FE5A21C8EA9500D79829 /* ModuleInterface */ = {
+			isa = PBXGroup;
+			children = (
+				2B07FE5B21C8EA9500D79829 /* CPChartNetworkUsageModuleInterface.h */,
+			);
+			path = ModuleInterface;
+			sourceTree = "<group>";
+		};
+		2B07FE5C21C8EA9500D79829 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				2B07FE5D21C8EA9500D79829 /* Presentor */,
+				2B07FE6021C8EA9500D79829 /* View */,
+				2B07FE6421C8EA9500D79829 /* Wireframe */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		2B07FE5D21C8EA9500D79829 /* Presentor */ = {
+			isa = PBXGroup;
+			children = (
+				2B07FE5E21C8EA9500D79829 /* CPChartNetworkUsagePresenter.h */,
+				2B07FE5F21C8EA9500D79829 /* CPChartNetworkUsagePresenter.m */,
+			);
+			path = Presentor;
+			sourceTree = "<group>";
+		};
+		2B07FE6021C8EA9500D79829 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B07FE6121C8EA9500D79829 /* CPChartNetworkUsageViewController.h */,
+				2B07FE6221C8EA9500D79829 /* CPChartNetworkUsageViewController.m */,
+				2B07FE6321C8EA9500D79829 /* CPChartNetworkUsageViewInterface.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2B07FE6421C8EA9500D79829 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				2B07FE6521C8EA9500D79829 /* CPChartNetworkUsageWireframe.h */,
+				2B07FE6621C8EA9500D79829 /* CPChartNetworkUsageWireframe.m */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		2B07FE8421C9017700D79829 /* ChartGPUUsage */ = {
+			isa = PBXGroup;
+			children = (
+				2B07FE8521C9017700D79829 /* ApplicationLogic */,
+				2B07FE8D21C9017700D79829 /* ModuleInterface */,
+				2B07FE8F21C9017700D79829 /* UserInterface */,
+			);
+			path = ChartGPUUsage;
+			sourceTree = "<group>";
+		};
+		2B07FE8521C9017700D79829 /* ApplicationLogic */ = {
+			isa = PBXGroup;
+			children = (
+				2B07FE8621C9017700D79829 /* DataManager */,
+				2B07FE8921C9017700D79829 /* Interactor */,
+			);
+			path = ApplicationLogic;
+			sourceTree = "<group>";
+		};
+		2B07FE8621C9017700D79829 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				2B07FE8721C9017700D79829 /* CPChartGPUUsageDataManager.h */,
+				2B07FE8821C9017700D79829 /* CPChartGPUUsageDataManager.m */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		2B07FE8921C9017700D79829 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				2B07FE8A21C9017700D79829 /* CPChartGPUUsageInteractor.h */,
+				2B07FE8B21C9017700D79829 /* CPChartGPUUsageInteractor.m */,
+				2B07FE8C21C9017700D79829 /* CPChartGPUUsageIO.h */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		2B07FE8D21C9017700D79829 /* ModuleInterface */ = {
+			isa = PBXGroup;
+			children = (
+				2B07FE8E21C9017700D79829 /* CPChartGPUUsageModuleInterface.h */,
+			);
+			path = ModuleInterface;
+			sourceTree = "<group>";
+		};
+		2B07FE8F21C9017700D79829 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				2B07FE9021C9017700D79829 /* Presentor */,
+				2B07FE9321C9017700D79829 /* View */,
+				2B07FE9721C9017700D79829 /* Wireframe */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		2B07FE9021C9017700D79829 /* Presentor */ = {
+			isa = PBXGroup;
+			children = (
+				2B07FE9121C9017700D79829 /* CPChartGPUUsagePresenter.h */,
+				2B07FE9221C9017700D79829 /* CPChartGPUUsagePresenter.m */,
+			);
+			path = Presentor;
+			sourceTree = "<group>";
+		};
+		2B07FE9321C9017700D79829 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B07FE9421C9017700D79829 /* CPChartGPUUsageViewController.h */,
+				2B07FE9521C9017700D79829 /* CPChartGPUUsageViewController.m */,
+				2B07FE9621C9017700D79829 /* CPChartGPUUsageViewInterface.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2B07FE9721C9017700D79829 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				2B07FE9821C9017700D79829 /* CPChartGPUUsageWireframe.h */,
+				2B07FE9921C9017700D79829 /* CPChartGPUUsageWireframe.m */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		2B1EE34E21C20D4A002F19A4 /* ChartCPUUsage */ = {
+			isa = PBXGroup;
+			children = (
+				2B1EE36E21C24598002F19A4 /* ApplicationLogic */,
+				2B1EE35321C20F20002F19A4 /* ModuleInterface */,
+				2B1EE35421C20F31002F19A4 /* UserInterface */,
+			);
+			path = ChartCPUUsage;
+			sourceTree = "<group>";
+		};
+		2B1EE35321C20F20002F19A4 /* ModuleInterface */ = {
+			isa = PBXGroup;
+			children = (
+				2B1EE36D21C24367002F19A4 /* CPChartCPUUsageModuleInterface.h */,
+			);
+			path = ModuleInterface;
+			sourceTree = "<group>";
+		};
+		2B1EE35421C20F31002F19A4 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				2B1EE35521C20F55002F19A4 /* Presentor */,
+				2B1EE35721C20F70002F19A4 /* Wireframe */,
+				2B1EE35621C20F60002F19A4 /* View */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		2B1EE35521C20F55002F19A4 /* Presentor */ = {
+			isa = PBXGroup;
+			children = (
+				2B1EE36521C23D47002F19A4 /* CPChartCPUUsagePresenter.h */,
+				2B1EE36621C23D47002F19A4 /* CPChartCPUUsagePresenter.m */,
+			);
+			path = Presentor;
+			sourceTree = "<group>";
+		};
+		2B1EE35621C20F60002F19A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B1EE35921C20FE1002F19A4 /* CPChartCPUUsageViewController.h */,
+				2B1EE35A21C20FE1002F19A4 /* CPChartCPUUsageViewController.m */,
+				2B1EE36A21C23DC1002F19A4 /* CPChartCPUUsageViewInterface.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2B1EE35721C20F70002F19A4 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				2B1EE35E21C21323002F19A4 /* CPChartCPUUsageWireframe.h */,
+				2B1EE35F21C21323002F19A4 /* CPChartCPUUsageWireframe.m */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		2B1EE36E21C24598002F19A4 /* ApplicationLogic */ = {
+			isa = PBXGroup;
+			children = (
+				2B8F904921C35F1B00578D83 /* DataManager */,
+				2B8F904321C35D4E00578D83 /* Interactor */,
+			);
+			path = ApplicationLogic;
+			sourceTree = "<group>";
+		};
+		2B1EE37021C24A1C002F19A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2BF2858C21C7553E0047899A /* Display */,
+				2B7F444421C0B60C00694449 /* CPChartItem.h */,
+				2B7F444521C0B60C00694449 /* CPChartItem.m */,
+				2B1EE37121C24AAD002F19A4 /* CPChartCPUUsageItem.h */,
+				2B1EE37221C24AAD002F19A4 /* CPChartCPUUsageItem.m */,
+				2BF285CE21C7B2D40047899A /* CPChartRAMUsageItem.h */,
+				2BF285CF21C7B2D40047899A /* CPChartRAMUsageItem.m */,
+				2B07FE4C21C8E79900D79829 /* CPChartNetworkUsageItem.h */,
+				2B07FE4D21C8E79900D79829 /* CPChartNetworkUsageItem.m */,
+				2B07FEA921C9036400D79829 /* CPChartGPUUsageItem.h */,
+				2B07FEAA21C9036400D79829 /* CPChartGPUUsageItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2B7F443B21C0AFEA00694449 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				2B7F443C21C0B00900694449 /* CPListChartDataManager.h */,
+				2B7F443D21C0B00900694449 /* CPListChartDataManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		2B7F443F21C0B57900694449 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				2B7F444321C0B5C300694449 /* Entities */,
+				2B1EE34A21C204C0002F19A4 /* ChartList.plist */,
+				2B7F444021C0B5A100694449 /* CPCoreDataStore.h */,
+				2B7F444121C0B5A100694449 /* CPCoreDataStore.m */,
+				2B8F903E21C35BCD00578D83 /* CPUUsage.h */,
+				2B8F903F21C35BCD00578D83 /* CPUUsage.m */,
+				2B07FE2F21C8A62E00D79829 /* RAMUsage.h */,
+				2B07FE3021C8A62E00D79829 /* RAMUsage.m */,
+				2B07FE3D21C8DCD300D79829 /* GPUUsage.h */,
+				2B07FE3E21C8DCD300D79829 /* GPUUsage.m */,
+				2B07FE3821C8D4EF00D79829 /* NetworkUsage.h */,
+				2B07FE3921C8D4EF00D79829 /* NetworkUsage.m */,
+				2B07FE2521C8945800D79829 /* CPBaseUsageCoreDataStore.h */,
+				2B07FE2621C8945800D79829 /* CPBaseUsageCoreDataStore.m */,
+				2B8F904F21C36B6B00578D83 /* CPChartCPUUsageCoreDataStore.h */,
+				2B8F905021C36B6B00578D83 /* CPChartCPUUsageCoreDataStore.m */,
+				2B07FE2A21C8A22F00D79829 /* CPChartRAMUsageCoreDataStore.h */,
+				2B07FE2B21C8A22F00D79829 /* CPChartRAMUsageCoreDataStore.m */,
+				2B07FE4721C8E53F00D79829 /* CPChartNetworkUsageCoreDataStore.h */,
+				2B07FE4821C8E53F00D79829 /* CPChartNetworkUsageCoreDataStore.m */,
+				2B07FE7F21C900F600D79829 /* CPChartGPUUsageCoreDataStore.h */,
+				2B07FE8021C900F600D79829 /* CPChartGPUUsageCoreDataStore.m */,
+				2B8F906521C38A6400578D83 /* PerformanceHistory.xcdatamodeld */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		2B7F444321C0B5C300694449 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				2B07FE2021C8937000D79829 /* CPManagedBaseUsageItem.h */,
+				2B07FE2121C8937000D79829 /* CPManagedBaseUsageItem.m */,
+				2B8F906021C3702100578D83 /* CPManagedCPUUsageItem.h */,
+				2B8F906121C3702100578D83 /* CPManagedCPUUsageItem.m */,
+				2B07FE1B21C892DB00D79829 /* CPManagedRAMUsageItem.h */,
+				2B07FE1C21C892DB00D79829 /* CPManagedRAMUsageItem.m */,
+				2B07FE4221C8E3BC00D79829 /* CPManagedNetworkUsageItem.h */,
+				2B07FE4321C8E3BC00D79829 /* CPManagedNetworkUsageItem.m */,
+				2B07FE7A21C8FF7D00D79829 /* CPManagedGPUUsageItem.h */,
+				2B07FE7B21C8FF7D00D79829 /* CPManagedGPUUsageItem.m */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		2B7F444721C0B8D700694449 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				2B7F444821C0B97800694449 /* StringConst.h */,
+				2B7F444921C0B97800694449 /* StringConst.m */,
+				2B7F444B21C0BA7300694449 /* CPConst.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		2B7F444C21C0C9F200694449 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				2B7F444D21C0CAFC00694449 /* NSArray+HOM.h */,
+				2B7F444E21C0CAFC00694449 /* NSArray+HOM.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		2B8F903A21C356B600578D83 /* Formater */ = {
+			isa = PBXGroup;
+			children = (
+				2B8F903B21C356E300578D83 /* CPDateValueFormatter.h */,
+				2B8F903C21C356E300578D83 /* CPDateValueFormatter.m */,
+			);
+			path = Formater;
+			sourceTree = "<group>";
+		};
+		2B8F904321C35D4E00578D83 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				2B1EE36F21C245DA002F19A4 /* CPChartCPUUsageIO.h */,
+				2B8F904421C35DDA00578D83 /* CPChartCPUUsageInteractor.h */,
+				2B8F904521C35DDA00578D83 /* CPChartCPUUsageInteractor.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		2B8F904921C35F1B00578D83 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				2B8F904A21C35F4500578D83 /* CPChartCPUUsageDataManager.h */,
+				2B8F904B21C35F4500578D83 /* CPChartCPUUsageDataManager.m */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		2BB29D0F21BE4EFA0019E2D8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BB29D1A21BE54FA0019E2D8 /* CPUPerformentChartExample.swift */,
+				2BCB584121BE1BAD00A873C3 /* Info.plist */,
+				2BCB584221BE1BAD00A873C3 /* main.m */,
+				2BB29D1321BE51E00019E2D8 /* CPUPerformentChartExample-Bridging-Header.h */,
+				2BB29D1421BE51E00019E2D8 /* CPUPerformentChartExampleTests-Bridging-Header.h */,
+				2BB29D1521BE51E00019E2D8 /* CPUPerformentChartExampleUITests-Bridging-Header.h */,
+				2BB29D2421BE63B00019E2D8 /* CPUPerformentChartExample-Prefix.pch */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
+		2BB29D1E21BE5EAE0019E2D8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2BCB583921BE1B8E00A873C3 /* Main.storyboard */,
+				2BCB583C21BE1BAD00A873C3 /* Assets.xcassets */,
+				2BCB583E21BE1BAD00A873C3 /* LaunchScreen.storyboard */,
+				2B1EE34F21C20E28002F19A4 /* CPChartCPUUsageViewController.storyboard */,
+				2B07FE3421C8ABCE00D79829 /* CPChartRAMUsageViewController.storyboard */,
+				2B07FE7621C8F09400D79829 /* CPChartNetworkUsageViewController.storyboard */,
+				2B07FEAE21C9047F00D79829 /* CPChartGPUUsageViewController.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2BB29D1F21BE60F00019E2D8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2BCE797221BFA0E3007CB4C4 /* Common */,
+				2BB29D2021BE610D0019E2D8 /* Modules */,
+				2BCE797D21BFAB04007CB4C4 /* CPAppDependencies.h */,
+				2BCE797E21BFAB04007CB4C4 /* CPAppDependencies.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2BB29D2021BE610D0019E2D8 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				2B1EE34E21C20D4A002F19A4 /* ChartCPUUsage */,
+				2BF285A921C7AFDF0047899A /* ChartRAMUsage */,
+				2B07FE8421C9017700D79829 /* ChartGPUUsage */,
+				2B07FE5121C8EA9500D79829 /* ChartNetworkUsage */,
+				2BB29D2121BE61280019E2D8 /* ListChart */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		2BB29D2121BE61280019E2D8 /* ListChart */ = {
+			isa = PBXGroup;
+			children = (
+				2BCE798B21BFC4B1007CB4C4 /* ApplicationLogic */,
+				2BCE798921BFBB9E007CB4C4 /* ModuleInterface */,
+				2BB29D2521BE65A40019E2D8 /* UserInterface */,
+			);
+			path = ListChart;
+			sourceTree = "<group>";
+		};
+		2BB29D2221BE61780019E2D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2BCE798421BFB4DA007CB4C4 /* CPListChartViewController.h */,
+				2BCE798521BFB4DA007CB4C4 /* CPListChartViewController.m */,
+				2BCE798821BFB5CB007CB4C4 /* CPListChartViewInterface.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2BB29D2521BE65A40019E2D8 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				2BCE798021BFAEB1007CB4C4 /* Presenter */,
+				2BB29D2721BE68C70019E2D8 /* Wireframe */,
+				2BB29D2221BE61780019E2D8 /* View */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		2BB29D2721BE68C70019E2D8 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				2BB29D2821BE69C50019E2D8 /* CPListChartWireframe.h */,
+				2BB29D2921BE69C50019E2D8 /* CPListChartWireframe.m */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		2BCB582721BE1B8B00A873C3 = {
+			isa = PBXGroup;
+			children = (
+				2BCB583221BE1B8C00A873C3 /* CPUPerformentChartExample */,
+				2BCB584B21BE1BB000A873C3 /* CPUPerformentChartExampleTests */,
+				2BCB585621BE1BB000A873C3 /* CPUPerformentChartExampleUITests */,
+				2BCB583121BE1B8C00A873C3 /* Products */,
+				9B1A3CB2B867C799C4CD12C2 /* Pods */,
+				698E2550759DECEBC0936694 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2BCB583121BE1B8C00A873C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BCB583021BE1B8C00A873C3 /* CPUPerformentChartExample.app */,
+				2BCB584821BE1BB000A873C3 /* CPUPerformentChartExampleTests.xctest */,
+				2BCB585321BE1BB000A873C3 /* CPUPerformentChartExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BCB583221BE1B8C00A873C3 /* CPUPerformentChartExample */ = {
+			isa = PBXGroup;
+			children = (
+				2BB29D1F21BE60F00019E2D8 /* Classes */,
+				2BCB583321BE1B8D00A873C3 /* AppDelegate.h */,
+				2BCB583421BE1B8D00A873C3 /* AppDelegate.m */,
+				2BB29D1E21BE5EAE0019E2D8 /* Resources */,
+				2BB29D0F21BE4EFA0019E2D8 /* Support Files */,
+			);
+			path = CPUPerformentChartExample;
+			sourceTree = "<group>";
+		};
+		2BCB584B21BE1BB000A873C3 /* CPUPerformentChartExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BCB584C21BE1BB000A873C3 /* CPUPerformentChartExampleTests.m */,
+				2BCB584E21BE1BB000A873C3 /* Info.plist */,
+			);
+			path = CPUPerformentChartExampleTests;
+			sourceTree = "<group>";
+		};
+		2BCB585621BE1BB000A873C3 /* CPUPerformentChartExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BCB585721BE1BB000A873C3 /* CPUPerformentChartExampleUITests.m */,
+				2BCB585921BE1BB000A873C3 /* Info.plist */,
+			);
+			path = CPUPerformentChartExampleUITests;
+			sourceTree = "<group>";
+		};
+		2BCE797221BFA0E3007CB4C4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2B8F903A21C356B600578D83 /* Formater */,
+				2B1EE37021C24A1C002F19A4 /* Model */,
+				2B7F444C21C0C9F200694449 /* Categories */,
+				2B7F444721C0B8D700694449 /* Constants */,
+				2B7F443F21C0B57900694449 /* Store */,
+				2BCE797321BFA13A007CB4C4 /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2BCE797321BFA13A007CB4C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2BCE797421BFA258007CB4C4 /* CPBaseWireframe.h */,
+				2BCE797521BFA258007CB4C4 /* CPBaseWireframe.m */,
+				2BCE797721BFA2C4007CB4C4 /* CPStoryboardUtility.h */,
+				2BCE797821BFA2C4007CB4C4 /* CPStoryboardUtility.m */,
+				2BCE797A21BFA614007CB4C4 /* CPRootWireframe.h */,
+				2BCE797B21BFA614007CB4C4 /* CPRootWireframe.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2BCE798021BFAEB1007CB4C4 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2BF2859D21C793A50047899A /* Display */,
+				2BCE798121BFAFC2007CB4C4 /* CPListChartPresenter.h */,
+				2BCE798221BFAFC2007CB4C4 /* CPListChartPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		2BCE798921BFBB9E007CB4C4 /* ModuleInterface */ = {
+			isa = PBXGroup;
+			children = (
+				2B1EE36C21C240FF002F19A4 /* CPListChartModuleInterface.h */,
+			);
+			path = ModuleInterface;
+			sourceTree = "<group>";
+		};
+		2BCE798B21BFC4B1007CB4C4 /* ApplicationLogic */ = {
+			isa = PBXGroup;
+			children = (
+				2B7F443B21C0AFEA00694449 /* Manager */,
+				2BCE798C21BFC869007CB4C4 /* Interactor */,
+			);
+			path = ApplicationLogic;
+			sourceTree = "<group>";
+		};
+		2BCE798C21BFC869007CB4C4 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				2BCE798D21BFC8FD007CB4C4 /* CPListChartInteractor.h */,
+				2BCE798E21BFC8FD007CB4C4 /* CPListChartInteractor.m */,
+				2B7F445021C0ED6400694449 /* CPListChartIO.h */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		2BF2858C21C7553E0047899A /* Display */ = {
+			isa = PBXGroup;
+			children = (
+				2BF2858D21C755D40047899A /* CPBaseDisplayData.h */,
+				2BF2858E21C755D40047899A /* CPBaseDisplayData.m */,
+				2BF2859021C757AE0047899A /* CPBaseDisplaySection.h */,
+				2BF2859121C757AE0047899A /* CPBaseDisplaySection.m */,
+				2BF2859321C75D5D0047899A /* CPBaseDisplayItem.h */,
+				2BF2859421C75D5D0047899A /* CPBaseDisplayItem.m */,
+				2BF2859621C763CD0047899A /* CPBaseDisplayDataCollector.h */,
+				2BF2859721C763CD0047899A /* CPBaseDisplayDataCollector.m */,
+				2BF2859921C780ED0047899A /* CPBaseDisplayDataCollectorDelegate.h */,
+			);
+			path = Display;
+			sourceTree = "<group>";
+		};
+		2BF2859D21C793A50047899A /* Display */ = {
+			isa = PBXGroup;
+			children = (
+				2BF2859E21C793FB0047899A /* CPListChartDisplayItem.h */,
+				2BF2859F21C793FB0047899A /* CPListChartDisplayItem.m */,
+				2BF285A121C7987F0047899A /* CPListChartDisplayDataCollector.h */,
+				2BF285A221C7987F0047899A /* CPListChartDisplayDataCollector.m */,
+			);
+			path = Display;
+			sourceTree = "<group>";
+		};
+		2BF285A921C7AFDF0047899A /* ChartRAMUsage */ = {
+			isa = PBXGroup;
+			children = (
+				2BF285AA21C7AFDF0047899A /* ApplicationLogic */,
+				2BF285B221C7AFDF0047899A /* ModuleInterface */,
+				2BF285B421C7AFDF0047899A /* UserInterface */,
+			);
+			path = ChartRAMUsage;
+			sourceTree = "<group>";
+		};
+		2BF285AA21C7AFDF0047899A /* ApplicationLogic */ = {
+			isa = PBXGroup;
+			children = (
+				2BF285AB21C7AFDF0047899A /* DataManager */,
+				2BF285AE21C7AFDF0047899A /* Interactor */,
+			);
+			path = ApplicationLogic;
+			sourceTree = "<group>";
+		};
+		2BF285AB21C7AFDF0047899A /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				2BF285AC21C7AFDF0047899A /* CPChartRAMUsageDataManager.h */,
+				2BF285AD21C7AFDF0047899A /* CPChartRAMUsageDataManager.m */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		2BF285AE21C7AFDF0047899A /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				2BF285AF21C7AFDF0047899A /* CPChartRAMUsageInteractor.h */,
+				2BF285B021C7AFDF0047899A /* CPChartRAMUsageInteractor.m */,
+				2BF285B121C7AFDF0047899A /* CPChartRAMUsageIO.h */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		2BF285B221C7AFDF0047899A /* ModuleInterface */ = {
+			isa = PBXGroup;
+			children = (
+				2BF285B321C7AFDF0047899A /* CPChartRAMUsageModuleInterface.h */,
+			);
+			path = ModuleInterface;
+			sourceTree = "<group>";
+		};
+		2BF285B421C7AFDF0047899A /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				2BF285B521C7AFDF0047899A /* Presentor */,
+				2BF285B821C7AFDF0047899A /* View */,
+				2BF285BC21C7AFDF0047899A /* Wireframe */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		2BF285B521C7AFDF0047899A /* Presentor */ = {
+			isa = PBXGroup;
+			children = (
+				2BF285B621C7AFDF0047899A /* CPChartRAMUsagePresenter.h */,
+				2BF285B721C7AFDF0047899A /* CPChartRAMUsagePresenter.m */,
+			);
+			path = Presentor;
+			sourceTree = "<group>";
+		};
+		2BF285B821C7AFDF0047899A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2BF285B921C7AFDF0047899A /* CPChartRAMUsageViewController.h */,
+				2BF285BA21C7AFDF0047899A /* CPChartRAMUsageViewController.m */,
+				2BF285BB21C7AFDF0047899A /* CPChartRAMUsageViewInterface.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2BF285BC21C7AFDF0047899A /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				2BF285BD21C7AFDF0047899A /* CPChartRAMUsageWireframe.h */,
+				2BF285BE21C7AFDF0047899A /* CPChartRAMUsageWireframe.m */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		698E2550759DECEBC0936694 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BE1EE5621C9E87100F06E08 /* AFNetworking.framework */,
+				2B8F905E21C36FEC00578D83 /* CoreData.framework */,
+				2B1EE37B21C26E00002F19A4 /* Charts.framework */,
+				2B1EE37821C25881002F19A4 /* libCharts.a */,
+				2B1EE37621C2550A002F19A4 /* libCharts.a */,
+				2D7F960B4AFCCDC2870E5B6B /* Pods_CPUPerformentChartExample.framework */,
+				8C28D643CF993B74AFE3D68B /* Pods_CPUPerformentChartExampleTests.framework */,
+				31825DA16B3B2946A84C639F /* Pods_CPUPerformentChartExampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B1A3CB2B867C799C4CD12C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E583881043EF718F574C11A /* Pods-CPUPerformentChartExample.debug.xcconfig */,
+				A5DF4AD817A5A774E26ABE99 /* Pods-CPUPerformentChartExample.release.xcconfig */,
+				05458431AEBD7DF7F2B77BC0 /* Pods-CPUPerformentChartExampleTests.debug.xcconfig */,
+				24BEFF9D6D731CF61CAA6E20 /* Pods-CPUPerformentChartExampleTests.release.xcconfig */,
+				E5832D8BC7740A07E8C84C31 /* Pods-CPUPerformentChartExampleUITests.debug.xcconfig */,
+				D2D5551AAD2AEB9DB26B57A3 /* Pods-CPUPerformentChartExampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BCB582F21BE1B8C00A873C3 /* CPUPerformentChartExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BCB585C21BE1BB000A873C3 /* Build configuration list for PBXNativeTarget "CPUPerformentChartExample" */;
+			buildPhases = (
+				329BE79EA2EE9BAD98EE22D0 /* [CP] Check Pods Manifest.lock */,
+				2BCB582C21BE1B8C00A873C3 /* Sources */,
+				2BCB582D21BE1B8C00A873C3 /* Frameworks */,
+				2BCB582E21BE1B8C00A873C3 /* Resources */,
+				8A399B8A8ADB6CBA5D769848 /* [CP] Embed Pods Frameworks */,
+				2B8F905B21C36F1B00578D83 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CPUPerformentChartExample;
+			productName = CPUPerformentChartExample;
+			productReference = 2BCB583021BE1B8C00A873C3 /* CPUPerformentChartExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BCB584721BE1BB000A873C3 /* CPUPerformentChartExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BCB585F21BE1BB000A873C3 /* Build configuration list for PBXNativeTarget "CPUPerformentChartExampleTests" */;
+			buildPhases = (
+				3F09521BB2085A781064125E /* [CP] Check Pods Manifest.lock */,
+				2BCB584421BE1BB000A873C3 /* Sources */,
+				2BCB584521BE1BB000A873C3 /* Frameworks */,
+				2BCB584621BE1BB000A873C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BCB584A21BE1BB000A873C3 /* PBXTargetDependency */,
+			);
+			name = CPUPerformentChartExampleTests;
+			productName = CPUPerformentChartExampleTests;
+			productReference = 2BCB584821BE1BB000A873C3 /* CPUPerformentChartExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BCB585221BE1BB000A873C3 /* CPUPerformentChartExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BCB586221BE1BB000A873C3 /* Build configuration list for PBXNativeTarget "CPUPerformentChartExampleUITests" */;
+			buildPhases = (
+				9BC1F7E425A12EBE000D2320 /* [CP] Check Pods Manifest.lock */,
+				2BCB584F21BE1BB000A873C3 /* Sources */,
+				2BCB585021BE1BB000A873C3 /* Frameworks */,
+				2BCB585121BE1BB000A873C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BCB585521BE1BB000A873C3 /* PBXTargetDependency */,
+			);
+			name = CPUPerformentChartExampleUITests;
+			productName = CPUPerformentChartExampleUITests;
+			productReference = 2BCB585321BE1BB000A873C3 /* CPUPerformentChartExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BCB582821BE1B8C00A873C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CP;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Nguyễn Trọng Anh Tuấn";
+				TargetAttributes = {
+					2BCB582F21BE1B8C00A873C3 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					2BCB584721BE1BB000A873C3 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+						TestTargetID = 2BCB582F21BE1B8C00A873C3;
+					};
+					2BCB585221BE1BB000A873C3 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+						TestTargetID = 2BCB582F21BE1B8C00A873C3;
+					};
+				};
+			};
+			buildConfigurationList = 2BCB582B21BE1B8C00A873C3 /* Build configuration list for PBXProject "CPUPerformentChartExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BCB582721BE1B8B00A873C3;
+			productRefGroup = 2BCB583121BE1B8C00A873C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BCB582F21BE1B8C00A873C3 /* CPUPerformentChartExample */,
+				2BCB584721BE1BB000A873C3 /* CPUPerformentChartExampleTests */,
+				2BCB585221BE1BB000A873C3 /* CPUPerformentChartExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BCB582E21BE1B8C00A873C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B07FE3521C8ABCE00D79829 /* CPChartRAMUsageViewController.storyboard in Resources */,
+				2BCB584021BE1BAD00A873C3 /* LaunchScreen.storyboard in Resources */,
+				2BCB583D21BE1BAD00A873C3 /* Assets.xcassets in Resources */,
+				2BCB583B21BE1B8E00A873C3 /* Main.storyboard in Resources */,
+				2B07FEAF21C9047F00D79829 /* CPChartGPUUsageViewController.storyboard in Resources */,
+				2B1EE34B21C204C0002F19A4 /* ChartList.plist in Resources */,
+				2B1EE35021C20E28002F19A4 /* CPChartCPUUsageViewController.storyboard in Resources */,
+				2B07FE7721C8F09400D79829 /* CPChartNetworkUsageViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BCB584621BE1BB000A873C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B07FE3621C8ABCE00D79829 /* CPChartRAMUsageViewController.storyboard in Resources */,
+				2B1EE35121C20E28002F19A4 /* CPChartCPUUsageViewController.storyboard in Resources */,
+				2B07FE7821C8F09400D79829 /* CPChartNetworkUsageViewController.storyboard in Resources */,
+				2B07FEB021C9047F00D79829 /* CPChartGPUUsageViewController.storyboard in Resources */,
+				2B1EE34C21C204C0002F19A4 /* ChartList.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BCB585121BE1BB000A873C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B07FE3721C8ABCE00D79829 /* CPChartRAMUsageViewController.storyboard in Resources */,
+				2B1EE35221C20E28002F19A4 /* CPChartCPUUsageViewController.storyboard in Resources */,
+				2B07FE7921C8F09400D79829 /* CPChartNetworkUsageViewController.storyboard in Resources */,
+				2B07FEB121C9047F00D79829 /* CPChartGPUUsageViewController.storyboard in Resources */,
+				2B1EE34D21C204C0002F19A4 /* ChartList.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		329BE79EA2EE9BAD98EE22D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CPUPerformentChartExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F09521BB2085A781064125E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CPUPerformentChartExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A399B8A8ADB6CBA5D769848 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CPUPerformentChartExample/Pods-CPUPerformentChartExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CPUPerformentChartExample/Pods-CPUPerformentChartExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BC1F7E425A12EBE000D2320 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CPUPerformentChartExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BCB582C21BE1B8C00A873C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B07FE2C21C8A22F00D79829 /* CPChartRAMUsageCoreDataStore.m in Sources */,
+				2BF285BF21C7AFDF0047899A /* CPChartRAMUsageDataManager.m in Sources */,
+				2BCE797F21BFAB04007CB4C4 /* CPAppDependencies.m in Sources */,
+				2B1EE37321C24AAD002F19A4 /* CPChartCPUUsageItem.m in Sources */,
+				2B7F444A21C0B97800694449 /* StringConst.m in Sources */,
+				2B07FE7021C8EA9600D79829 /* CPChartNetworkUsageViewController.m in Sources */,
+				2B8F905121C36B6B00578D83 /* CPChartCPUUsageCoreDataStore.m in Sources */,
+				2B07FE3121C8A62E00D79829 /* RAMUsage.m in Sources */,
+				2BF2858F21C755D40047899A /* CPBaseDisplayData.m in Sources */,
+				2B7F443E21C0B00900694449 /* CPListChartDataManager.m in Sources */,
+				2BF2859821C763CD0047899A /* CPBaseDisplayDataCollector.m in Sources */,
+				2B07FE6721C8EA9600D79829 /* CPChartNetworkUsageDataManager.m in Sources */,
+				2B8F903D21C356E300578D83 /* CPDateValueFormatter.m in Sources */,
+				2BCE797621BFA258007CB4C4 /* CPBaseWireframe.m in Sources */,
+				2BF285C821C7AFDF0047899A /* CPChartRAMUsageViewController.m in Sources */,
+				2B07FE7321C8EA9600D79829 /* CPChartNetworkUsageWireframe.m in Sources */,
+				2B07FE9A21C9017700D79829 /* CPChartGPUUsageDataManager.m in Sources */,
+				2BCE798621BFB4DA007CB4C4 /* CPListChartViewController.m in Sources */,
+				2B1EE36021C21323002F19A4 /* CPChartCPUUsageWireframe.m in Sources */,
+				2BCB584321BE1BAD00A873C3 /* main.m in Sources */,
+				2BCE798321BFAFC2007CB4C4 /* CPListChartPresenter.m in Sources */,
+				2B7F444F21C0CAFC00694449 /* NSArray+HOM.m in Sources */,
+				2BCE797921BFA2C4007CB4C4 /* CPStoryboardUtility.m in Sources */,
+				2BB29D1B21BE54FA0019E2D8 /* CPUPerformentChartExample.swift in Sources */,
+				2B07FE2221C8937000D79829 /* CPManagedBaseUsageItem.m in Sources */,
+				2BF285D021C7B2D40047899A /* CPChartRAMUsageItem.m in Sources */,
+				2B1EE36721C23D47002F19A4 /* CPChartCPUUsagePresenter.m in Sources */,
+				2BF285A321C7987F0047899A /* CPListChartDisplayDataCollector.m in Sources */,
+				2BCE797C21BFA614007CB4C4 /* CPRootWireframe.m in Sources */,
+				2BF285C221C7AFDF0047899A /* CPChartRAMUsageInteractor.m in Sources */,
+				2BF2859521C75D5D0047899A /* CPBaseDisplayItem.m in Sources */,
+				2B07FE3A21C8D4EF00D79829 /* NetworkUsage.m in Sources */,
+				2B07FE3F21C8DCD300D79829 /* GPUUsage.m in Sources */,
+				2B8F906721C38A6400578D83 /* PerformanceHistory.xcdatamodeld in Sources */,
+				2B07FE6D21C8EA9600D79829 /* CPChartNetworkUsagePresenter.m in Sources */,
+				2BB29D2A21BE69C50019E2D8 /* CPListChartWireframe.m in Sources */,
+				2B07FEA021C9017700D79829 /* CPChartGPUUsagePresenter.m in Sources */,
+				2B8F904021C35BCD00578D83 /* CPUUsage.m in Sources */,
+				2BCB583521BE1B8D00A873C3 /* AppDelegate.m in Sources */,
+				2B8F904621C35DDA00578D83 /* CPChartCPUUsageInteractor.m in Sources */,
+				2B07FE9D21C9017700D79829 /* CPChartGPUUsageInteractor.m in Sources */,
+				2B07FE2721C8945800D79829 /* CPBaseUsageCoreDataStore.m in Sources */,
+				2BF2859221C757AE0047899A /* CPBaseDisplaySection.m in Sources */,
+				2B07FE4E21C8E79900D79829 /* CPChartNetworkUsageItem.m in Sources */,
+				2B07FE4421C8E3BC00D79829 /* CPManagedNetworkUsageItem.m in Sources */,
+				2B07FE4921C8E53F00D79829 /* CPChartNetworkUsageCoreDataStore.m in Sources */,
+				2B07FEA621C9017700D79829 /* CPChartGPUUsageWireframe.m in Sources */,
+				2B07FEAB21C9036400D79829 /* CPChartGPUUsageItem.m in Sources */,
+				2B07FE1D21C892DB00D79829 /* CPManagedRAMUsageItem.m in Sources */,
+				2B07FEA321C9017700D79829 /* CPChartGPUUsageViewController.m in Sources */,
+				2BF285A021C793FB0047899A /* CPListChartDisplayItem.m in Sources */,
+				2BCE798F21BFC8FD007CB4C4 /* CPListChartInteractor.m in Sources */,
+				2BF285CB21C7AFDF0047899A /* CPChartRAMUsageWireframe.m in Sources */,
+				2B07FE8121C900F600D79829 /* CPChartGPUUsageCoreDataStore.m in Sources */,
+				2B7F444621C0B60C00694449 /* CPChartItem.m in Sources */,
+				2B8F906221C3702100578D83 /* CPManagedCPUUsageItem.m in Sources */,
+				2B1EE35B21C20FE1002F19A4 /* CPChartCPUUsageViewController.m in Sources */,
+				2B07FE7C21C8FF7D00D79829 /* CPManagedGPUUsageItem.m in Sources */,
+				2B07FE6A21C8EA9600D79829 /* CPChartNetworkUsageInteractor.m in Sources */,
+				2B8F904C21C35F4500578D83 /* CPChartCPUUsageDataManager.m in Sources */,
+				2B7F444221C0B5A100694449 /* CPCoreDataStore.m in Sources */,
+				2BF285C521C7AFDF0047899A /* CPChartRAMUsagePresenter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BCB584421BE1BB000A873C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF285D121C7B2D40047899A /* CPChartRAMUsageItem.m in Sources */,
+				2B07FE9E21C9017700D79829 /* CPChartGPUUsageInteractor.m in Sources */,
+				2BF285C321C7AFDF0047899A /* CPChartRAMUsageInteractor.m in Sources */,
+				2B07FE4021C8DCD300D79829 /* GPUUsage.m in Sources */,
+				2B8F904721C35DDA00578D83 /* CPChartCPUUsageInteractor.m in Sources */,
+				2BB29D1C21BE54FA0019E2D8 /* CPUPerformentChartExample.swift in Sources */,
+				2B8F904D21C35F4500578D83 /* CPChartCPUUsageDataManager.m in Sources */,
+				2B07FE4521C8E3BC00D79829 /* CPManagedNetworkUsageItem.m in Sources */,
+				2B07FE6E21C8EA9600D79829 /* CPChartNetworkUsagePresenter.m in Sources */,
+				2B07FE7121C8EA9600D79829 /* CPChartNetworkUsageViewController.m in Sources */,
+				2B07FE6B21C8EA9600D79829 /* CPChartNetworkUsageInteractor.m in Sources */,
+				2B1EE36121C21323002F19A4 /* CPChartCPUUsageWireframe.m in Sources */,
+				2B07FE2821C8945800D79829 /* CPBaseUsageCoreDataStore.m in Sources */,
+				2BF285CC21C7AFDF0047899A /* CPChartRAMUsageWireframe.m in Sources */,
+				2B07FE6821C8EA9600D79829 /* CPChartNetworkUsageDataManager.m in Sources */,
+				2B8F904121C35BCD00578D83 /* CPUUsage.m in Sources */,
+				2B07FE7D21C8FF7D00D79829 /* CPManagedGPUUsageItem.m in Sources */,
+				2B8F906821C38A6400578D83 /* PerformanceHistory.xcdatamodeld in Sources */,
+				2B8F905221C36B6B00578D83 /* CPChartCPUUsageCoreDataStore.m in Sources */,
+				2B07FE4A21C8E53F00D79829 /* CPChartNetworkUsageCoreDataStore.m in Sources */,
+				2B07FE1E21C892DB00D79829 /* CPManagedRAMUsageItem.m in Sources */,
+				2B07FE9B21C9017700D79829 /* CPChartGPUUsageDataManager.m in Sources */,
+				2B07FE3B21C8D4EF00D79829 /* NetworkUsage.m in Sources */,
+				2B8F906321C3702100578D83 /* CPManagedCPUUsageItem.m in Sources */,
+				2BCB584D21BE1BB000A873C3 /* CPUPerformentChartExampleTests.m in Sources */,
+				2B07FEAC21C9036400D79829 /* CPChartGPUUsageItem.m in Sources */,
+				2BB29D2B21BE69C50019E2D8 /* CPListChartWireframe.m in Sources */,
+				2B07FE2D21C8A23000D79829 /* CPChartRAMUsageCoreDataStore.m in Sources */,
+				2B07FEA421C9017700D79829 /* CPChartGPUUsageViewController.m in Sources */,
+				2B1EE35C21C20FE1002F19A4 /* CPChartCPUUsageViewController.m in Sources */,
+				2B1EE37421C24AAD002F19A4 /* CPChartCPUUsageItem.m in Sources */,
+				2B07FE8221C900F600D79829 /* CPChartGPUUsageCoreDataStore.m in Sources */,
+				2B07FE3221C8A62E00D79829 /* RAMUsage.m in Sources */,
+				2B07FEA721C9017700D79829 /* CPChartGPUUsageWireframe.m in Sources */,
+				2B07FEA121C9017700D79829 /* CPChartGPUUsagePresenter.m in Sources */,
+				2B07FE7421C8EA9600D79829 /* CPChartNetworkUsageWireframe.m in Sources */,
+				2B07FE4F21C8E79900D79829 /* CPChartNetworkUsageItem.m in Sources */,
+				2BF285C021C7AFDF0047899A /* CPChartRAMUsageDataManager.m in Sources */,
+				2B1EE36821C23D47002F19A4 /* CPChartCPUUsagePresenter.m in Sources */,
+				2BF285C921C7AFDF0047899A /* CPChartRAMUsageViewController.m in Sources */,
+				2BF285C621C7AFDF0047899A /* CPChartRAMUsagePresenter.m in Sources */,
+				2B07FE2321C8937000D79829 /* CPManagedBaseUsageItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BCB584F21BE1BB000A873C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF285D221C7B2D40047899A /* CPChartRAMUsageItem.m in Sources */,
+				2B07FE9F21C9017700D79829 /* CPChartGPUUsageInteractor.m in Sources */,
+				2BF285C421C7AFDF0047899A /* CPChartRAMUsageInteractor.m in Sources */,
+				2B07FE4121C8DCD300D79829 /* GPUUsage.m in Sources */,
+				2B8F904821C35DDA00578D83 /* CPChartCPUUsageInteractor.m in Sources */,
+				2BB29D1D21BE54FA0019E2D8 /* CPUPerformentChartExample.swift in Sources */,
+				2B8F904E21C35F4500578D83 /* CPChartCPUUsageDataManager.m in Sources */,
+				2B07FE4621C8E3BC00D79829 /* CPManagedNetworkUsageItem.m in Sources */,
+				2B07FE6F21C8EA9600D79829 /* CPChartNetworkUsagePresenter.m in Sources */,
+				2B07FE7221C8EA9600D79829 /* CPChartNetworkUsageViewController.m in Sources */,
+				2B07FE6C21C8EA9600D79829 /* CPChartNetworkUsageInteractor.m in Sources */,
+				2B1EE36221C21323002F19A4 /* CPChartCPUUsageWireframe.m in Sources */,
+				2B07FE2921C8945800D79829 /* CPBaseUsageCoreDataStore.m in Sources */,
+				2BF285CD21C7AFDF0047899A /* CPChartRAMUsageWireframe.m in Sources */,
+				2B07FE6921C8EA9600D79829 /* CPChartNetworkUsageDataManager.m in Sources */,
+				2B8F904221C35BCD00578D83 /* CPUUsage.m in Sources */,
+				2B07FE7E21C8FF7D00D79829 /* CPManagedGPUUsageItem.m in Sources */,
+				2B8F906921C38A6400578D83 /* PerformanceHistory.xcdatamodeld in Sources */,
+				2B8F905321C36B6B00578D83 /* CPChartCPUUsageCoreDataStore.m in Sources */,
+				2B07FE4B21C8E53F00D79829 /* CPChartNetworkUsageCoreDataStore.m in Sources */,
+				2B07FE1F21C892DB00D79829 /* CPManagedRAMUsageItem.m in Sources */,
+				2B07FE9C21C9017700D79829 /* CPChartGPUUsageDataManager.m in Sources */,
+				2B07FE3C21C8D4EF00D79829 /* NetworkUsage.m in Sources */,
+				2B8F906421C3702100578D83 /* CPManagedCPUUsageItem.m in Sources */,
+				2BCB585821BE1BB000A873C3 /* CPUPerformentChartExampleUITests.m in Sources */,
+				2B07FEAD21C9036400D79829 /* CPChartGPUUsageItem.m in Sources */,
+				2BB29D2C21BE69C50019E2D8 /* CPListChartWireframe.m in Sources */,
+				2B07FE2E21C8A23000D79829 /* CPChartRAMUsageCoreDataStore.m in Sources */,
+				2B07FEA521C9017700D79829 /* CPChartGPUUsageViewController.m in Sources */,
+				2B1EE35D21C20FE1002F19A4 /* CPChartCPUUsageViewController.m in Sources */,
+				2B1EE37521C24AAD002F19A4 /* CPChartCPUUsageItem.m in Sources */,
+				2B07FE8321C900F600D79829 /* CPChartGPUUsageCoreDataStore.m in Sources */,
+				2B07FE3321C8A62E00D79829 /* RAMUsage.m in Sources */,
+				2B07FEA821C9017700D79829 /* CPChartGPUUsageWireframe.m in Sources */,
+				2B07FEA221C9017700D79829 /* CPChartGPUUsagePresenter.m in Sources */,
+				2B07FE7521C8EA9600D79829 /* CPChartNetworkUsageWireframe.m in Sources */,
+				2B07FE5021C8E79900D79829 /* CPChartNetworkUsageItem.m in Sources */,
+				2BF285C121C7AFDF0047899A /* CPChartRAMUsageDataManager.m in Sources */,
+				2B1EE36921C23D47002F19A4 /* CPChartCPUUsagePresenter.m in Sources */,
+				2BF285CA21C7AFDF0047899A /* CPChartRAMUsageViewController.m in Sources */,
+				2BF285C721C7AFDF0047899A /* CPChartRAMUsagePresenter.m in Sources */,
+				2B07FE2421C8937000D79829 /* CPManagedBaseUsageItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BCB584A21BE1BB000A873C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BCB582F21BE1B8C00A873C3 /* CPUPerformentChartExample */;
+			targetProxy = 2BCB584921BE1BB000A873C3 /* PBXContainerItemProxy */;
+		};
+		2BCB585521BE1BB000A873C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BCB582F21BE1B8C00A873C3 /* CPUPerformentChartExample */;
+			targetProxy = 2BCB585421BE1BB000A873C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BCB583921BE1B8E00A873C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BCB583A21BE1B8E00A873C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BCB583E21BE1BAD00A873C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BCB583F21BE1BAD00A873C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BCB585A21BE1BB000A873C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BCB585B21BE1BB000A873C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BCB585D21BE1BB000A873C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E583881043EF718F574C11A /* Pods-CPUPerformentChartExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BAFKY943B;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(TARGET_NAME)/$(TARGET_NAME)-Prefix.pch";
+				INFOPLIST_FILE = CPUPerformentChartExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vn.tuan.CPUPerformentChartExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CPUPerformentChartExample/CPUPerformentChartExample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BCB585E21BE1BB000A873C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5DF4AD817A5A774E26ABE99 /* Pods-CPUPerformentChartExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BAFKY943B;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(TARGET_NAME)/$(TARGET_NAME)-Prefix.pch";
+				INFOPLIST_FILE = CPUPerformentChartExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vn.tuan.CPUPerformentChartExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CPUPerformentChartExample/CPUPerformentChartExample-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2BCB586021BE1BB000A873C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05458431AEBD7DF7F2B77BC0 /* Pods-CPUPerformentChartExampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BAFKY943B;
+				INFOPLIST_FILE = CPUPerformentChartExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vn.tuan.CPUPerformentChartExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CPUPerformentChartExample/CPUPerformentChartExampleTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CPUPerformentChartExample.app/CPUPerformentChartExample";
+			};
+			name = Debug;
+		};
+		2BCB586121BE1BB000A873C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24BEFF9D6D731CF61CAA6E20 /* Pods-CPUPerformentChartExampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BAFKY943B;
+				INFOPLIST_FILE = CPUPerformentChartExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vn.tuan.CPUPerformentChartExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CPUPerformentChartExample/CPUPerformentChartExampleTests-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CPUPerformentChartExample.app/CPUPerformentChartExample";
+			};
+			name = Release;
+		};
+		2BCB586321BE1BB000A873C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5832D8BC7740A07E8C84C31 /* Pods-CPUPerformentChartExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BAFKY943B;
+				INFOPLIST_FILE = CPUPerformentChartExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vn.tuan.CPUPerformentChartExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CPUPerformentChartExample/CPUPerformentChartExampleUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CPUPerformentChartExample;
+			};
+			name = Debug;
+		};
+		2BCB586421BE1BB000A873C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2D5551AAD2AEB9DB26B57A3 /* Pods-CPUPerformentChartExampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BAFKY943B;
+				INFOPLIST_FILE = CPUPerformentChartExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vn.tuan.CPUPerformentChartExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CPUPerformentChartExample/CPUPerformentChartExampleUITests-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CPUPerformentChartExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BCB582B21BE1B8C00A873C3 /* Build configuration list for PBXProject "CPUPerformentChartExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BCB585A21BE1BB000A873C3 /* Debug */,
+				2BCB585B21BE1BB000A873C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BCB585C21BE1BB000A873C3 /* Build configuration list for PBXNativeTarget "CPUPerformentChartExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BCB585D21BE1BB000A873C3 /* Debug */,
+				2BCB585E21BE1BB000A873C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BCB585F21BE1BB000A873C3 /* Build configuration list for PBXNativeTarget "CPUPerformentChartExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BCB586021BE1BB000A873C3 /* Debug */,
+				2BCB586121BE1BB000A873C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BCB586221BE1BB000A873C3 /* Build configuration list for PBXNativeTarget "CPUPerformentChartExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BCB586321BE1BB000A873C3 /* Debug */,
+				2BCB586421BE1BB000A873C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2B8F906521C38A6400578D83 /* PerformanceHistory.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2B8F906621C38A6400578D83 /* PerformanceHistory.xcdatamodel */,
+			);
+			currentVersion = 2B8F906621C38A6400578D83 /* PerformanceHistory.xcdatamodel */;
+			path = PerformanceHistory.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2BCB582821BE1B8C00A873C3 /* Project object */;
+}

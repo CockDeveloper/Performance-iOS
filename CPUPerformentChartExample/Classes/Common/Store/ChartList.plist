@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>chartId</key>
+		<string>chartIdCPUUsage</string>
+		<key>chartName</key>
+		<string>Chart CPU Usage</string>
+	</dict>
+	<dict>
+		<key>chartId</key>
+		<string>chartIdRAMUsage</string>
+		<key>chartName</key>
+		<string>Chart RAM Usage</string>
+	</dict>
+	<dict>
+		<key>chartId</key>
+		<string>chartIdNetworkUsage</string>
+		<key>chartName</key>
+		<string>Chart Network Usage</string>
+	</dict>
+	<dict>
+		<key>chartId</key>
+		<string>chartIdGPUUsage</string>
+		<key>chartName</key>
+		<string>Chart GPU Usage</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--CPU Usage-->
+        <scene sceneID="hAY-rS-NFX">
+            <objects>
+                <viewController storyboardIdentifier="CPChartCPUUsageViewController" id="Zic-sy-XX8" customClass="CPChartCPUUsageViewController" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" title="CPU Usage" id="8s5-Ym-UTh"/>
+                    <connections>
+                        <outlet property="chartView" destination="vZF-fo-hwL" id="djN-7h-hut"/>
+                        <outlet property="dataContentView" destination="7Iz-wx-Z5r" id="I2E-WZ-N9z"/>
+                        <outlet property="noContentView" destination="bWk-Df-7WH" id="hRG-zr-IfR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xay-ft-RuZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <view contentMode="scaleToFill" id="bWk-Df-7WH">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chart has not data" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9X4-72-Oe3">
+                            <rect key="frame" x="103.5" y="321.5" width="168.5" height="24"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="9X4-72-Oe3" firstAttribute="centerY" secondItem="bWk-Df-7WH" secondAttribute="centerY" id="1nk-CJ-Ijb"/>
+                        <constraint firstItem="9X4-72-Oe3" firstAttribute="centerX" secondItem="bWk-Df-7WH" secondAttribute="centerX" id="8mB-5A-T0A"/>
+                    </constraints>
+                    <viewLayoutGuide key="safeArea" id="B8d-F2-izs"/>
+                </view>
+                <view contentMode="scaleToFill" id="7Iz-wx-Z5r">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vZF-fo-hwL" customClass="LineChartView" customModule="Charts">
+                            <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="vZF-fo-hwL" firstAttribute="leading" secondItem="1Gf-oc-SJW" secondAttribute="leading" id="3PL-tZ-BC2"/>
+                        <constraint firstItem="1Gf-oc-SJW" firstAttribute="trailing" secondItem="vZF-fo-hwL" secondAttribute="trailing" id="OjM-2p-3vh"/>
+                        <constraint firstItem="1Gf-oc-SJW" firstAttribute="bottom" secondItem="vZF-fo-hwL" secondAttribute="bottom" id="k9a-L4-VfE"/>
+                        <constraint firstItem="vZF-fo-hwL" firstAttribute="top" secondItem="1Gf-oc-SJW" secondAttribute="top" id="w2m-Pt-XHe"/>
+                    </constraints>
+                    <viewLayoutGuide key="safeArea" id="1Gf-oc-SJW"/>
+                </view>
+            </objects>
+        </scene>
+    </scenes>
+</document>

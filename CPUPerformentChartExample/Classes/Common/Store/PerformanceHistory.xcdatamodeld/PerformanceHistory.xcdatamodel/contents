@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18B75" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="BaseUsage" representedClassName="CPManagedBaseUsageItem" syncable="YES">
+        <attribute name="timeUpdate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="valueUsage" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="CPUUsage" representedClassName="CPManagedCPUUsageItem" parentEntity="BaseUsage" syncable="YES"/>
+    <entity name="GPUUsage" representedClassName="CPManagedGPUUsageItem" parentEntity="BaseUsage" syncable="YES"/>
+    <entity name="NetworkUsage" representedClassName="CPManagedNetworkUsageItem" parentEntity="BaseUsage" syncable="YES"/>
+    <entity name="RAMUsage" representedClassName="CPManagedRAMUsageItem" parentEntity="BaseUsage" syncable="YES"/>
+    <elements>
+        <element name="CPUUsage" positionX="-63" positionY="-18" width="128" height="45"/>
+        <element name="RAMUsage" positionX="-63" positionY="0" width="128" height="45"/>
+        <element name="BaseUsage" positionX="-54" positionY="18" width="128" height="75"/>
+        <element name="NetworkUsage" positionX="-36" positionY="36" width="128" height="45"/>
+        <element name="GPUUsage" positionX="-18" positionY="45" width="128" height="45"/>
+    </elements>
+</model>
